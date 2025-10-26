@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "title": "UI/UX Design",
+    "image": "https://i.ibb.co.com/twsLB6w4/Gemini-Generated-Image-tjrpn0tjrpn0tjrp.png",
+    "shortDescription": "Logo Design, Website design, Wireframes, Mock ups - we do all with precision.",
+    "details": "We design seamless digital experiences. From brand identity and user interface to responsive web and app layouts, our design process focuses on clarity, usability, and aesthetics. Every pixel we place serves a purpose.",
+    "features": [
+      "UI/UX Design",
+      "Logo & Branding",
+      "Prototyping (Figma, Adobe XD)",
+      "Responsive Web Layouts",
+      "Mobile App Design"
+    ],
+    "technologies": ["Figma", "Adobe XD", "Canva", "Framer"]
+  },
+  {
+    "id": 2,
+    "title": "Web Application Development",
+    "image": "https://i.ibb.co.com/5gnRrZ2x/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-1.png",
+    "shortDescription": "Build powerful, scalable web applications tailored to your business needs.",
+    "details": "Our development team builds scalable, secure, and high-performing web applications. Whether it's a landing page, enterprise system, or SaaS platform, we use the latest technologies to deliver robust and maintainable codebases.",
+    "features": [
+      "Full-stack Web Development",
+      "API Integration",
+      "Custom CMS & Plugin Development",
+      "E-commerce Solutions",
+      "Performance Optimization"
+    ],
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mobile Application Development",
+    "image": "https://i.ibb.co.com/XffYYCqd/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-2.png",
+    "shortDescription": "Native and cross-platform mobile apps that deliver exceptional user experiences.",
+    "details": "We create high-quality mobile applications for iOS and Android. From concept to deployment, our team ensures your app is fast, secure, and user-friendly with modern technologies and best practices.",
+    "features": [
+      "iOS & Android Development",
+      "Cross-platform Solutions",
+      "App Store Deployment",
+      "Push Notifications",
+      "In-App Purchases & Analytics"
+    ],
+    "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
+  },
+  {
+    "id": 4,
+    "title": "Custom Software Development",
+    "image": "https://i.ibb.co.com/YFz7bQnF/Gemini-Generated-Image-3x40nj3x40nj3x40.png",
+    "shortDescription": "Tailored software solutions designed specifically for your unique business requirements.",
+    "details": "We develop custom software that perfectly aligns with your business processes. From CRM systems to inventory management, we build solutions that streamline operations and boost productivity.",
+    "features": [
+      "Enterprise Software Solutions",
+      "Business Process Automation",
+      "Legacy System Modernization",
+      "Third-party Integrations",
+      "Scalable Architecture"
+    ],
+    "technologies": [
+      "Java",
+      "Python",
+      ".NET",
+      "PostgreSQL",
+      "Microservices",
+      "Docker"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "DevOps Services",
+    "image": "https://i.ibb.co.com/KcWfy9Jc/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-3.png",
+    "shortDescription": "Streamline your development pipeline with modern DevOps practices and automation.",
+    "details": "We implement DevOps practices to accelerate your software delivery. From CI/CD pipelines to infrastructure automation, we help teams deploy faster, more reliably, and with greater confidence.",
+    "features": [
+      "CI/CD Pipeline Setup",
+      "Infrastructure as Code",
+      "Cloud Migration",
+      "Monitoring & Logging",
+      "Container Orchestration"
+    ],
+    "technologies": [
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Terraform"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Software Testing",
+    "image": "https://i.ibb.co.com/mCPdbmgN/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-5.png",
+    "shortDescription": "Comprehensive testing services to ensure your software is bug-free and performs flawlessly.",
+    "details": "Our QA experts conduct thorough testing to identify issues before they reach production. We use manual and automated testing strategies to ensure your software meets the highest quality standards.",
+    "features": [
+      "Manual & Automated Testing",
+      "Performance Testing",
+      "Security Testing",
+      "API Testing",
+      "Mobile App Testing"
+    ],
+    "technologies": [
+      "Selenium",
+      "Jest",
+      "Cypress",
+      "Postman",
+      "JMeter",
+      "TestRail"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cloud Consultancy",
+    "image": "https://i.ibb.co.com/mF9fFpjr/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-4.png",
+    "shortDescription": "Expert guidance to optimize your cloud infrastructure and reduce costs.",
+    "details": "We help businesses leverage cloud computing for better scalability, security, and cost-efficiency. Our consultants design cloud strategies that align with your goals and maximize ROI.",
+    "features": [
+      "Cloud Strategy & Planning",
+      "Cost Optimization",
+      "Security & Compliance",
+      "Multi-cloud Solutions",
+      "Cloud-native Architecture"
+    ],
+    "technologies": [
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "Serverless",
+      "Lambda",
+      "S3"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Dedicated Development Team",
+    "image": "https://i.ibb.co.com/wFHb2HVS/Gemini-Generated-Image-tjrpn0tjrpn0tjrp-6.png",
+    "shortDescription": "Extend your team with skilled developers dedicated to your project's success.",
+    "details": "Get a team of experienced developers working exclusively on your project. We provide flexible engagement models and ensure seamless collaboration with your in-house team.",
+    "features": [
+      "Flexible Team Scaling",
+      "Full-time Dedicated Resources",
+      "Agile Development Process",
+      "Daily Progress Updates",
+      "Seamless Communication"
+    ],
+    "technologies": ["React", "Node.js", "Python", "Java", "Angular", "Vue.js"]
+  },
+  {
+    "id": 9,
+    "title": "Digital Marketing",
+    "image": "https://i.ibb.co.com/3YPHPLTf/Gemini-Generated-Image-csz8agcsz8agcsz8.png",
+    "shortDescription": "This is overused term in the industry today. But don't worry we know what we are doing.",
+    "details": "Our marketing experts help your brand connect with the right audience. We manage social media, ad campaigns, and content strategies that generate measurable results.",
+    "features": [
+      "Social Media Marketing",
+      "Email Campaigns",
+      "Content Creation & Strategy",
+      "Google & Facebook Ads",
+      "Brand Awareness Campaigns"
+    ],
+    "technologies": ["Meta Ads", "Google Ads", "Mailchimp", "HubSpot", "Canva"]
+  }
+]

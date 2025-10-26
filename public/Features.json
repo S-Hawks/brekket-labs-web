@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Fix Prices",
+    "description": "We offer a lot fix (box) price services. Check them out.",
+    "icon": "price"
+  },
+  {
+    "id": 2,
+    "title": "Clear Deliverables",
+    "description": "We provide clear milestones. 7 days post delivery support.",
+    "icon": "delivery"
+  },
+  {
+    "id": 3,
+    "title": "Client Area",
+    "description": "You get a special client area for transparent communications.",
+    "icon": "client"
+  },
+  {
+    "id": 4,
+    "title": "Fast Communication",
+    "description": "Whitehat Link building is our thing. Did we tell you that we own SEO Doctor app for Shopify.",
+    "icon": "communication"
+  }
+]
