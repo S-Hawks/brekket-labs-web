@@ -1,26 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Fix Prices",
-    "description": "We offer a lot fix (box) price services. Check them out.",
-    "icon": "price"
+    "title": "Expert Team",
+    "image": "https://i.ibb.co.com/F41X8XHL/Frame-expert-team.png",
+    "description": "Our skilled professionals bring years of experience in cutting-edge technologies and best practices."
   },
   {
     "id": 2,
-    "title": "Clear Deliverables",
-    "description": "We provide clear milestones. 7 days post delivery support.",
-    "icon": "delivery"
+    "title": "On-Time Delivery",
+    "image": "https://i.ibb.co.com/XkFcyTcr/Gemini-Generated-on-time.png",
+    "description": "We respect deadlines and ensure timely project delivery without compromising on quality."
   },
   {
     "id": 3,
-    "title": "Client Area",
-    "description": "You get a special client area for transparent communications.",
-    "icon": "client"
+    "title": "24/7 Support",
+    "image": "https://i.ibb.co.com/tPPBwx7j/Gemini-Generated-sopport.png",
+    "description": "Round-the-clock support to address your concerns and keep your business running smoothly."
   },
   {
     "id": 4,
-    "title": "Fast Communication",
-    "description": "Whitehat Link building is our thing. Did we tell you that we own SEO Doctor app for Shopify.",
-    "icon": "communication"
+    "title": "Agile Process",
+    "image": "https://i.ibb.co.com/PGJYQGht/Gemini-Generated-agile.png",
+    "description": "We follow agile methodologies for flexibility, transparency, and continuous improvement."
+  },
+  {
+    "id": 5,
+    "title": "Cost Effective",
+    "image": "https://i.ibb.co.com/BKqq3rDM/Gemini-Generated-cost.png",
+    "description": "Premium quality services at competitive prices with transparent pricing and no hidden costs."
+  },
+  {
+    "id": 6,
+    "title": "Quality Assurance",
+    "image": "https://i.ibb.co.com/nqPYdqh0/Gemini-Generated-quality.png",
+    "description": "Rigorous testing and quality checks to ensure bug-free and high-performance solutions."
+  },
+  {
+    "id": 7,
+    "title": "Scalable Solutions",
+    "image": "https://i.ibb.co.com/Nd2VSfxG/Gemini-Generated-Image-b7fxgb7fxgb7fxgb.png",
+    "description": "Build for growth with scalable architecture that adapts to your business needs."
+  },
+  {
+    "id": 8,
+    "title": "Innovation Driven",
+    "image": "https://i.ibb.co.com/Jwfkd2LZ/Gemini-Generated-Innovation.png",
+    "description": "We stay ahead with latest technologies and innovative approaches to solve complex problems."
   }
 ]
