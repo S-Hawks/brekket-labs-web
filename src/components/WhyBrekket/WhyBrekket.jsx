@@ -34,7 +34,7 @@ const WhyBrekket = ({ featuresPromise }) => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8"
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
         >
           {features.map((feature) => (
             <motion.div

@@ -6,6 +6,7 @@ import {
   fadeIn,
   scaleIn,
 } from "../../../variant";
+import { Link } from "react-router";
 
 const Service = ({ service }) => {
   return (
@@ -54,17 +55,18 @@ const Service = ({ service }) => {
           </motion.p>
 
           <motion.div variants={scaleIn(0.7)} className="pt-4">
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                y: -5,
-                boxShadow: "0 20px 40px rgba(0,0,0,0.15)",
-              }}
-              whileTap={{ scale: 0.95 }}
+            <Link
+              to={`/service-details/${service.id}`}
+              // whileHover={{
+              //   scale: 1.05,
+              //   y: -5,
+              //   boxShadow: "0 20px 40px rgba(0,0,0,0.15)",
+              // }}
+              // whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg transition-all duration-300"
             >
               Learn More
-            </motion.button>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

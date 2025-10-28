@@ -1,8 +1,12 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../layout/MainLayout";
 import Root from "../pages/Root/Root";
-import Services from "../components/Services/Services";
 import Contact from "../components/Contact/Contact";
+import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
+import ServicesPage from "../components/ServicesPage/ServicesPage";
+import Products from "../components/Products/Products";
+import Blogs from "../components/Blogs/Blogs";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -13,14 +17,32 @@ export const router = createBrowserRouter([
         index: true,
         Component: MainLayout,
       },
-      // {
-      //   path: "/services",
-      //   Component: Services,
-      // },
+      {
+        path: "/services",
+        loader: () => fetch("/Services.json"),
+        Component: ServicesPage,
+      },
+      {
+        path: "/service-details/:serviceId",
+        loader: () => fetch("/Services.json"),
+        Component: ServiceDetails,
+      },
+      {
+        path: "/products",
+        Component: Products,
+      },
+      {
+        path: "/blog",
+        Component: Blogs,
+      },
+      {
+        path: "/about",
+        Component: AboutUs,
+      },
       {
         path: "/contact",
         Component: Contact,
-      }
+      },
     ],
   },
 ]);

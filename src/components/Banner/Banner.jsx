@@ -1,7 +1,7 @@
 import React from "react";
 import bannerImg from "../../assets/Gemini_Generated_Image_8lwcp68lwcp68lwc-Photoroom.png";
 import { motion } from "framer-motion";
-import { staggerContainer, textVariant, slideIn, scaleIn } from "../../variant";
+import { staggerContainer, textVariant, slideIn } from "../../variant";
 import { Link } from "react-router";
 
 const Banner = () => {
