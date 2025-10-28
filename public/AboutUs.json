@@ -1,0 +1,651 @@
+{
+  "companyDetails": {
+    "name": "Brekket Labs",
+    "tagline": "Innovating Tomorrow's Solutions Today",
+    "established": "2024",
+    "headquarters": "Dhaka, Bangladesh",
+    "employeeCount": "10+",
+    "description": "Brekket Labs is a dynamic software development company dedicated to transforming ideas into powerful digital solutions. We specialize in custom software development, mobile and web applications, cloud solutions, and cutting-edge technology integration. Our expert team brings deep expertise across fintech, healthcare, e-commerce, and education sectors. We deliver scalable, secure, and future-ready solutions that drive business growth and digital transformation. From startups to established enterprises, we partner with organizations of all sizes to bring their vision to life with innovative, high-quality software solutions.",
+    "email": "hello@brekketlabs.com",
+    "phone": "+880 1234-567890",
+    "website": "www.brekketlabs.com"
+  },
+
+  "missionAndVision": {
+    "mission": "To empower businesses with innovative and affordable software solutions that solve real-world problems, enhance productivity, and accelerate digital transformation through cutting-edge technology and exceptional customer service.",
+    "vision": "To establish ourselves as a trusted technology partner, recognized for delivering high-quality, innovative digital solutions that help businesses succeed and grow in the ever-evolving digital landscape.",
+    "coreValues": [
+      {
+        "title": "Innovation",
+        "description": "We constantly push boundaries and embrace new technologies to deliver cutting-edge solutions."
+      },
+      {
+        "title": "Excellence",
+        "description": "We are committed to delivering the highest quality in every project we undertake."
+      },
+      {
+        "title": "Integrity",
+        "description": "We build trust through transparency, honesty, and ethical business practices."
+      },
+      {
+        "title": "Collaboration",
+        "description": "We believe in the power of teamwork and partnering with our clients for mutual success."
+      },
+      {
+        "title": "Customer-Centric",
+        "description": "Our clients' success is our success. We go above and beyond to exceed expectations."
+      }
+    ]
+  },
+
+  "companyPromises": [
+    {
+      "id": 1,
+      "title": "On-Time Delivery",
+      "description": "We respect deadlines and ensure timely delivery of all projects without compromising quality.",
+      "icon": "clock"
+    },
+    {
+      "id": 2,
+      "title": "Quality Assurance",
+      "description": "Rigorous testing and quality checks ensure bug-free, high-performance solutions.",
+      "icon": "shield-check"
+    },
+    {
+      "id": 3,
+      "title": "24/7 Support",
+      "description": "Round-the-clock technical support to address your concerns and keep your systems running smoothly.",
+      "icon": "support"
+    },
+    {
+      "id": 4,
+      "title": "Cost-Effective Solutions",
+      "description": "Maximum value for your investment with transparent pricing and no hidden costs.",
+      "icon": "dollar"
+    },
+    {
+      "id": 5,
+      "title": "Scalable Architecture",
+      "description": "Future-proof solutions designed to grow with your business needs.",
+      "icon": "growth"
+    },
+    {
+      "id": 6,
+      "title": "Data Security",
+      "description": "Enterprise-grade security measures to protect your sensitive information and ensure compliance.",
+      "icon": "lock"
+    }
+  ],
+
+  "businessIdeas": {
+    "approach": "We believe in a client-first approach, combining agile methodologies with innovative thinking to deliver solutions that not only meet current needs but anticipate future challenges.",
+    "philosophy": "Our business philosophy centers on building long-term partnerships rather than one-time transactions. We invest time in understanding your business, industry, and goals to deliver solutions that truly make a difference.",
+    "differentiators": [
+      {
+        "title": "Agile Development",
+        "description": "Flexible, iterative approach that adapts to changing requirements and delivers value continuously."
+      },
+      {
+        "title": "Innovation-Driven",
+        "description": "We leverage emerging technologies like AI, blockchain, and cloud computing to keep you ahead of the curve."
+      },
+      {
+        "title": "End-to-End Solutions",
+        "description": "From ideation to deployment and maintenance, we handle every aspect of your digital journey."
+      },
+      {
+        "title": "Industry Expertise",
+        "description": "Deep domain knowledge across multiple sectors including fintech, healthcare, e-commerce, and education."
+      }
+    ]
+  },
+
+  "fieldsOfExpertise": [
+    {
+      "id": 1,
+      "category": "Web Development",
+      "description": "Building responsive, scalable, and feature-rich web applications using modern frameworks and technologies.",
+      "subcategories": [
+        "Full-Stack Development",
+        "Progressive Web Apps",
+        "E-commerce Platforms",
+        "CMS Development"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Mobile App Development",
+      "description": "Creating intuitive and high-performance native and cross-platform mobile applications for iOS and Android.",
+      "subcategories": [
+        "Native iOS/Android",
+        "React Native",
+        "Flutter",
+        "Hybrid Apps"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Custom Software Solutions",
+      "description": "Tailored software solutions designed to address unique business challenges and streamline operations.",
+      "subcategories": [
+        "Enterprise Software",
+        "Business Automation",
+        "Legacy System Modernization",
+        "SaaS Products"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Cloud & DevOps",
+      "description": "Cloud migration, infrastructure management, and DevOps implementation for optimal performance and scalability.",
+      "subcategories": [
+        "AWS/Azure/GCP",
+        "CI/CD Pipeline",
+        "Containerization",
+        "Cloud Migration"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "UI/UX Design",
+      "description": "Creating user-centric designs that are visually stunning and provide exceptional user experiences.",
+      "subcategories": [
+        "User Research",
+        "Wireframing & Prototyping",
+        "Visual Design",
+        "Usability Testing"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "AI & Machine Learning",
+      "description": "Implementing intelligent solutions using artificial intelligence and machine learning technologies.",
+      "subcategories": [
+        "Predictive Analytics",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Chatbots & Virtual Assistants"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Quality Assurance & Testing",
+      "description": "Comprehensive testing services to ensure flawless performance and user satisfaction.",
+      "subcategories": [
+        "Automated Testing",
+        "Manual Testing",
+        "Performance Testing",
+        "Security Testing"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Digital Marketing",
+      "description": "Strategic digital marketing solutions to enhance online presence and drive business growth.",
+      "subcategories": [
+        "SEO/SEM",
+        "Social Media Marketing",
+        "Content Marketing",
+        "Analytics & Reporting"
+      ]
+    }
+  ],
+
+  "roadmap": {
+    "description": "Our journey from inception to becoming a trusted technology partner",
+    "milestones": [
+      {
+        "year": "2024 Q1",
+        "title": "Company Founded",
+        "description": "Brekket Labs was established with a vision to deliver innovative software solutions.",
+        "achievements": [
+          "Assembled passionate team",
+          "Established development infrastructure",
+          "Defined core values and mission"
+        ]
+      },
+      {
+        "year": "2024 Q2",
+        "title": "First Clients",
+        "description": "Successfully onboarded our first clients and delivered initial projects.",
+        "achievements": [
+          "Launched first web applications",
+          "Built client relationships",
+          "Established quality standards"
+        ]
+      },
+      {
+        "year": "2024 Q3",
+        "title": "Service Expansion",
+        "description": "Expanded our service offerings to include mobile development and cloud solutions.",
+        "achievements": [
+          "Mobile app development started",
+          "Cloud infrastructure setup",
+          "Team skills enhanced"
+        ]
+      },
+      {
+        "year": "2024 Q4",
+        "title": "Growing Portfolio",
+        "description": "Building a diverse portfolio across multiple industries and technologies.",
+        "achievements": [
+          "Multiple successful deliveries",
+          "Client satisfaction achieved",
+          "Technology stack expanded"
+        ]
+      },
+      {
+        "year": "2025 Q1",
+        "title": "Market Presence",
+        "description": "Establishing strong market presence and expanding our client base.",
+        "achievements": [
+          "Team expansion",
+          "Enhanced service offerings",
+          "Industry partnerships"
+        ]
+      },
+      {
+        "year": "2025+",
+        "title": "Future Vision",
+        "description": "Continuing to innovate and grow as a trusted technology partner.",
+        "achievements": [
+          "AI/ML integration",
+          "Regional expansion",
+          "Innovation-driven solutions"
+        ]
+      }
+    ]
+  },
+
+  "achievements": {
+    "overview": "Our commitment to excellence and innovation drives everything we do",
+    "statistics": [
+      {
+        "number": "10+",
+        "label": "Projects Delivered",
+        "description": "Successfully launched projects with quality and precision"
+      },
+      {
+        "number": "100%",
+        "label": "Client Satisfaction",
+        "description": "Every client receives our dedicated attention and quality service"
+      },
+      {
+        "number": "10+",
+        "label": "Team Members",
+        "description": "Skilled professionals passionate about technology and innovation"
+      },
+      {
+        "number": "5+",
+        "label": "Industries Served",
+        "description": "Diverse expertise across multiple business sectors"
+      },
+      {
+        "number": "24/7",
+        "label": "Support Available",
+        "description": "Round-the-clock support for our valued clients"
+      },
+      {
+        "number": "2024",
+        "label": "Year Founded",
+        "description": "Fresh perspective with modern technology expertise"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Emerging Tech Startup",
+        "organization": "Bangladesh Startup Summit",
+        "year": "2024"
+      },
+      {
+        "title": "Best New IT Company",
+        "organization": "Tech Innovation Awards",
+        "year": "2024"
+      },
+      {
+        "title": "Client Choice Award",
+        "organization": "Local Business Excellence",
+        "year": "2024"
+      },
+      {
+        "title": "Innovation Excellence",
+        "organization": "Digital Bangladesh Initiative",
+        "year": "2024"
+      }
+    ],
+    "certifications": [
+      "Registered Software Company",
+      "SSL/TLS Security Certified",
+      "Agile & Scrum Certified Team",
+      "Modern Development Practices",
+      "Quality Assurance Standards"
+    ]
+  },
+
+  "technologies": {
+    "overview": "We leverage cutting-edge technologies to build robust, scalable, and future-ready solutions",
+    "categories": [
+      {
+        "category": "Frontend Development",
+        "technologies": [
+          {
+            "name": "React",
+            "proficiency": "Expert",
+            "description": "Building dynamic and responsive user interfaces"
+          },
+          {
+            "name": "Vue.js",
+            "proficiency": "Advanced",
+            "description": "Progressive framework for modern web applications"
+          },
+          {
+            "name": "Angular",
+            "proficiency": "Advanced",
+            "description": "Enterprise-level frontend development"
+          },
+          {
+            "name": "Next.js",
+            "proficiency": "Expert",
+            "description": "Server-side rendering and static site generation"
+          },
+          {
+            "name": "TypeScript",
+            "proficiency": "Expert",
+            "description": "Type-safe JavaScript development"
+          }
+        ]
+      },
+      {
+        "category": "Backend Development",
+        "technologies": [
+          {
+            "name": "Node.js",
+            "proficiency": "Expert",
+            "description": "Scalable server-side applications"
+          },
+          {
+            "name": "Python",
+            "proficiency": "Expert",
+            "description": "Django, Flask, FastAPI frameworks"
+          },
+          {
+            "name": "Java",
+            "proficiency": "Advanced",
+            "description": "Spring Boot, enterprise applications"
+          },
+          {
+            "name": "PHP",
+            "proficiency": "Advanced",
+            "description": "Laravel, WordPress, custom solutions"
+          },
+          {
+            "name": ".NET",
+            "proficiency": "Advanced",
+            "description": "Enterprise-grade applications"
+          }
+        ]
+      },
+      {
+        "category": "Mobile Development",
+        "technologies": [
+          {
+            "name": "React Native",
+            "proficiency": "Expert",
+            "description": "Cross-platform mobile applications"
+          },
+          {
+            "name": "Flutter",
+            "proficiency": "Expert",
+            "description": "Beautiful native mobile apps"
+          },
+          {
+            "name": "Swift",
+            "proficiency": "Advanced",
+            "description": "Native iOS development"
+          },
+          {
+            "name": "Kotlin",
+            "proficiency": "Advanced",
+            "description": "Native Android development"
+          }
+        ]
+      },
+      {
+        "category": "Database",
+        "technologies": [
+          {
+            "name": "MongoDB",
+            "proficiency": "Expert",
+            "description": "NoSQL database solutions"
+          },
+          {
+            "name": "PostgreSQL",
+            "proficiency": "Expert",
+            "description": "Advanced relational database"
+          },
+          {
+            "name": "MySQL",
+            "proficiency": "Expert",
+            "description": "Reliable data management"
+          },
+          {
+            "name": "Redis",
+            "proficiency": "Advanced",
+            "description": "In-memory data structure store"
+          },
+          {
+            "name": "Firebase",
+            "proficiency": "Advanced",
+            "description": "Real-time database solutions"
+          }
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "technologies": [
+          {
+            "name": "AWS",
+            "proficiency": "Expert",
+            "description": "Complete cloud infrastructure solutions"
+          },
+          {
+            "name": "Azure",
+            "proficiency": "Advanced",
+            "description": "Microsoft cloud services"
+          },
+          {
+            "name": "Google Cloud",
+            "proficiency": "Advanced",
+            "description": "Scalable cloud platform"
+          },
+          {
+            "name": "Docker",
+            "proficiency": "Expert",
+            "description": "Containerization and deployment"
+          },
+          {
+            "name": "Kubernetes",
+            "proficiency": "Advanced",
+            "description": "Container orchestration"
+          },
+          {
+            "name": "Jenkins",
+            "proficiency": "Advanced",
+            "description": "CI/CD automation"
+          }
+        ]
+      },
+      {
+        "category": "AI & Data Science",
+        "technologies": [
+          {
+            "name": "TensorFlow",
+            "proficiency": "Advanced",
+            "description": "Machine learning framework"
+          },
+          {
+            "name": "PyTorch",
+            "proficiency": "Advanced",
+            "description": "Deep learning platform"
+          },
+          {
+            "name": "OpenAI",
+            "proficiency": "Advanced",
+            "description": "AI-powered solutions"
+          },
+          {
+            "name": "Scikit-learn",
+            "proficiency": "Expert",
+            "description": "Machine learning library"
+          }
+        ]
+      }
+    ]
+  },
+
+  "team": {
+    "description": "Our passionate team brings together fresh perspectives and modern expertise in software development, design, and technology innovation.",
+    "departments": [
+      {
+        "name": "Development",
+        "count": "6+",
+        "description": "Skilled developers proficient in modern technologies and frameworks"
+      },
+      {
+        "name": "UI/UX Design",
+        "count": "2+",
+        "description": "Creative designers crafting beautiful and intuitive user experiences"
+      },
+      {
+        "name": "Quality Assurance",
+        "count": "1+",
+        "description": "Ensuring every project meets high quality standards"
+      },
+      {
+        "name": "Project Management",
+        "count": "1+",
+        "description": "Coordinating smooth project delivery and client communication"
+      },
+      {
+        "name": "Support",
+        "count": "24/7",
+        "description": "Dedicated support ensuring client success"
+      }
+    ]
+  },
+
+  "clientIndustries": [
+    {
+      "name": "Fintech",
+      "description": "Payment solutions, banking apps, financial management systems"
+    },
+    {
+      "name": "Healthcare",
+      "description": "Patient management, telemedicine, health tracking applications"
+    },
+    {
+      "name": "E-commerce",
+      "description": "Online marketplaces, retail platforms, inventory management"
+    },
+    {
+      "name": "Education",
+      "description": "E-learning platforms, student management, virtual classrooms"
+    },
+    {
+      "name": "Real Estate",
+      "description": "Property listings, CRM systems, virtual tours"
+    },
+    {
+      "name": "Logistics",
+      "description": "Fleet management, tracking systems, supply chain solutions"
+    },
+    {
+      "name": "Entertainment",
+      "description": "Streaming platforms, content management, social networks"
+    },
+    {
+      "name": "Manufacturing",
+      "description": "Process automation, inventory control, quality management"
+    }
+  ],
+
+  "whyChooseUs": [
+    {
+      "title": "Proven Expertise",
+      "description": "Years of experience delivering successful projects across diverse industries and technologies."
+    },
+    {
+      "title": "Dedicated Team",
+      "description": "A passionate team of experts committed to turning your vision into reality."
+    },
+    {
+      "title": "Agile Methodology",
+      "description": "Flexible development process that adapts to your needs and ensures continuous delivery."
+    },
+    {
+      "title": "Transparent Communication",
+      "description": "Regular updates, clear documentation, and open channels of communication throughout the project."
+    },
+    {
+      "title": "Competitive Pricing",
+      "description": "High-quality solutions at competitive rates with flexible engagement models."
+    },
+    {
+      "title": "Post-Launch Support",
+      "description": "Comprehensive maintenance and support services to ensure long-term success."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "clientName": "John Anderson",
+      "company": "TechCorp Solutions",
+      "position": "CEO",
+      "message": "Brekket Labs transformed our vision into a powerful platform that exceeded our expectations. Their expertise and dedication are unmatched.",
+      "rating": 5,
+      "project": "Enterprise Management System"
+    },
+    {
+      "id": 2,
+      "clientName": "Sarah Williams",
+      "company": "HealthFirst Medical",
+      "position": "CTO",
+      "message": "Working with Brekket Labs was a game-changer for our digital transformation. They delivered a HIPAA-compliant solution on time and within budget.",
+      "rating": 5,
+      "project": "Patient Management System"
+    },
+    {
+      "id": 3,
+      "clientName": "Michael Chen",
+      "company": "EduLearn Platform",
+      "position": "Founder",
+      "message": "The team's technical expertise and creative approach helped us build an e-learning platform that our users love. Highly recommended!",
+      "rating": 5,
+      "project": "E-Learning Platform"
+    }
+  ],
+
+  "socialResponsibility": {
+    "title": "Giving Back to the Community",
+    "description": "We believe in using technology for social good and contributing to the communities we serve.",
+    "initiatives": [
+      {
+        "name": "Tech Education Program",
+        "description": "Providing free coding bootcamps and workshops for underprivileged youth"
+      },
+      {
+        "name": "Open Source Contribution",
+        "description": "Actively contributing to open-source projects and sharing knowledge with the developer community"
+      },
+      {
+        "name": "Green Technology",
+        "description": "Implementing eco-friendly practices and developing sustainable software solutions"
+      },
+      {
+        "name": "Pro Bono Projects",
+        "description": "Offering free development services to non-profit organizations making a positive impact"
+      }
+    ]
+  }
+}

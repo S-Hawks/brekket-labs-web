@@ -1,15 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams, Link } from "react-router";
 import { motion } from "framer-motion";
-import {
-  staggerContainer,
-  textVariant,
-  fadeIn,
-  scaleIn,
-  slideIn,
-} from "../../variant";
+import { staggerContainer, textVariant, fadeIn, scaleIn } from "../../variant";
 import { FaCheckCircle, FaArrowLeft, FaCode } from "react-icons/fa";
-import { HiSparkles } from "react-icons/hi";
 
 const ServiceDetails = () => {
   const allServiceData = useLoaderData();
