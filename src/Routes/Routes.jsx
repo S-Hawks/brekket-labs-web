@@ -7,6 +7,8 @@ import ServicesPage from "../components/ServicesPage/ServicesPage";
 import Products from "../components/Products/Products";
 import Blogs from "../components/Blogs/Blogs";
 import AboutUs from "../components/AboutUs/AboutUs";
+import Login from "../pages/LogIn/Login";
+import Register from "../pages/Register/Register";
 
 export const router = createBrowserRouter([
   {
@@ -45,5 +47,13 @@ export const router = createBrowserRouter([
         Component: Contact,
       },
     ],
+  },
+  {
+    path: "/login",
+    Component: Login,
+  },
+  {
+    path: "/register",
+    Component: Register,
   },
 ]);
