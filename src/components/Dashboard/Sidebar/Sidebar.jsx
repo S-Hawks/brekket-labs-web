@@ -8,115 +8,163 @@ import {
   IoNotifications,
   IoWallet,
   IoPersonCircle,
-  IoChevronForward,
   IoLogOut,
 } from "react-icons/io5";
+import { NavLink } from "react-router";
 import Logo from "../../../assets/Group 427319169.png";
 
 const Sidebar = () => {
+  const menuItems = (
+    <>
+      <label className="text-gray-500 text-sm my-2 font-semibold tracking-wider">
+        MENU
+      </label>
+      <li>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoHome size={20} /> Dashboard
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/analytics"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoStatsChart size={20} /> Analytics
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/profile"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoPersonCircle size={20} /> Profile
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/users"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoPeople size={20} /> Users
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/projects"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoDocument size={20} /> Projects
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/billing"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoWallet size={20} /> Billing
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard/notifications"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoNotifications size={20} /> Notifications
+        </NavLink>
+      </li>
+
+      <label className="text-gray-500 text-sm mt-6 mb-2 font-semibold tracking-wider">
+        GENERAL
+      </label>
+      <li>
+        <NavLink
+          to="/dashboard/settings"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoSettings size={20} /> Settings
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/logout"
+          className={({ isActive }) =>
+            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+              isActive
+                ? "bg-primary text-primary-content font-semibold"
+                : "hover:bg-base-300"
+            }`
+          }
+        >
+          <IoLogOut size={20} /> LogOut
+        </NavLink>
+      </li>
+    </>
+  );
+
   return (
-    <div className="drawer drawer-open h-full">
-      <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-      <div className="drawer-side h-full">
-        <div className="is-drawer-close:w-24 is-drawer-open:w-52 bg-base-200 h-full flex flex-col overflow-hidden rounded-xl">
-          <label
-            htmlFor=""
-            className="mt-4 mx-auto text-base font-medium text-cyan-700"
-          >
-            <img src={Logo} alt="" className="w-20" />
-            <span className="is-drawer-close:hidden text-lg font-bold text-cyan-700">
-              .Lab
-            </span>
-          </label>
-          {/* Sidebar content here */}
-          <ul className="menu w-full text-lg font-medium flex-1 overflow-y-auto overflow-x-hidden">
-            <label htmlFor="" className="text-gray-500 text-sm pt-10">
-              MENU
-            </label>
-            {/* Dashboard Home */}
-            <li>
-              <button>
-                <IoHome className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Dashboard</span>
-              </button>
-            </li>
+    <div className="flex-col hidden lg:flex h-full">
+      <div className="bg-base-200 lg:w-64 h-full flex flex-col overflow-hidden rounded-xl border border-base-300 shadow-sm">
+        {/* Logo Section */}
+        <div className="flex items-center justify-center gap-1 mt-6 mb-4 px-4">
+          <img src={Logo} alt="Logo" className="w-28 h-auto" />
+          <span className="text-xl font-bold text-cyan-700">.Labs</span>
+        </div>
 
-            {/* Analytics */}
-            <li>
-              <button>
-                <IoStatsChart className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Analytics</span>
-              </button>
-            </li>
-
-            {/* Profile */}
-            <li>
-              <button>
-                <IoPersonCircle className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Profile</span>
-              </button>
-            </li>
-
-            {/* Users */}
-            <li>
-              <button>
-                <IoPeople className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Users</span>
-              </button>
-            </li>
-
-            {/* Projects */}
-            <li>
-              <button>
-                <IoDocument className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Projects</span>
-              </button>
-            </li>
-
-            {/* Billing */}
-            <li>
-              <button>
-                <IoWallet className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Billing</span>
-              </button>
-            </li>
-
-            {/* Notifications */}
-            <li>
-              <button>
-                <IoNotifications className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Notifications</span>
-              </button>
-            </li>
-
-            {/* -------------------------------------- */}
-            <label htmlFor="" className="text-gray-500 pt-8 text-sm">
-              GENERAL
-            </label>
-            {/* Settings */}
-            <li>
-              <button>
-                <IoSettings className="inline-block size-4 my-1.5" />
-                <span className="is-drawer-close:hidden">Settings</span>
-              </button>
-            </li>
-            <li>
-              <button>
-                <IoLogOut className="inline-block size-5 my-1.5" />
-                <span className="is-drawer-close:hidden">LogOut</span>
-              </button>
-            </li>
-          </ul>
-
-          {/* button to open/close drawer */}
-          <div className="p-3">
-            <label
-              htmlFor="my-drawer-4"
-              className="btn btn-ghost btn-circle drawer-button is-drawer-open:rotate-y-180"
-            >
-              <IoChevronForward className="inline-block size-4 my-1.5" />
-            </label>
-          </div>
+        <div className="divider my-2 px-4"></div>
+        {/* Menu Section */}
+        <div className="flex-1 overflow-y-auto px-3">
+          <ul className="menu text-base font-medium">{menuItems}</ul>
         </div>
       </div>
     </div>
