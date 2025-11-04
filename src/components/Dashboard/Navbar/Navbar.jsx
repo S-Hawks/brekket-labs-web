@@ -116,7 +116,6 @@ const Navbar = () => {
 
   return (
     <div className="navbar bg-base-200 px-4 rounded-xl border border-base-300 shadow-sm">
-      {/* Left Side */}
       <div className="navbar-start">
         {/* Mobile Menu Toggle */}
         <div className="lg:hidden">
@@ -149,7 +148,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Right Side */}
       <div className="navbar-end gap-3">
         {/* Notification Button */}
         <button className="btn btn-ghost btn-circle">

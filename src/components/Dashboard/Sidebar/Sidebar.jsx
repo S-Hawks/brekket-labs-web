@@ -155,14 +155,11 @@ const Sidebar = () => {
   return (
     <div className="flex-col hidden lg:flex h-full">
       <div className="bg-base-200 lg:w-64 h-full flex flex-col overflow-hidden rounded-xl border border-base-300 shadow-sm">
-        {/* Logo Section */}
         <div className="flex items-center justify-center gap-1 mt-6 mb-4 px-4">
           <img src={Logo} alt="Logo" className="w-28 h-auto" />
           <span className="text-xl font-bold text-cyan-700">.Labs</span>
         </div>
-
         <div className="divider my-2 px-4"></div>
-        {/* Menu Section */}
         <div className="flex-1 overflow-y-auto px-3">
           <ul className="menu text-base font-medium">{menuItems}</ul>
         </div>
