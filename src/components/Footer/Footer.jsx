@@ -54,7 +54,7 @@ const Footer = () => {
               <motion.a
                 href="#"
                 whileHover={{ scale: 1.15, y: -5 }}
-                className="w-10 h-10 bg-gradient-to-tr from-[#FCAF45] via-[#E1306C] to-[#833AB4] rounded-full flex items-center justify-center text-white hover:shadow-lg hover:shadow-pink-500/50 transition-all"
+                className="w-10 h-10 bg-linear-to-tr from-[#FCAF45] via-[#E1306C] to-[#833AB4] rounded-full flex items-center justify-center text-white hover:shadow-lg hover:shadow-pink-500/50 transition-all"
               >
                 <FaInstagram size={18} />
               </motion.a>

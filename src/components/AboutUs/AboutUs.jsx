@@ -1,17 +1,7 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router";
 import { motion } from "framer-motion";
-import { textVariant, fadeIn, staggerContainer, slideIn } from "../../variant";
-import aboutHeroImg from "../../assets/Frame expert-team.png";
-import {
-  FaBullseye,
-  FaEye,
-  FaLightbulb,
-  FaStar,
-  FaHandshake,
-  FaPalette,
-  FaHeart,
-} from "react-icons/fa";
+import { textVariant, fadeIn } from "../../variant";
 import AboutCompany from "./AboutCompany/AboutCompany";
 import Achievements from "./Achievements/Achievements";
 import Mission from "./Mission/Mission";
@@ -25,7 +15,7 @@ const AboutUs = () => {
   return (
     <div className="bg-white">
       {/* About Company Section */}
-      <div className="relative bg-gradient-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] py-16 md:py-20 px-5 md:px-10 xl:px-40 overflow-hidden">
+      <div className="relative bg-linear-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] py-16 md:py-20 px-5 md:px-10 xl:px-40 overflow-hidden">
         <AboutCompany companyDetails={companyDetails}></AboutCompany>
       </div>
       {/* Achievements Section */}
@@ -41,7 +31,7 @@ const AboutUs = () => {
         <Technologies technologies={technologies}></Technologies>
       </div>
       {/* Contact CTA */}
-      <div className="py-20 px-5 md:px-10 xl:px-40 bg-gradient-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe]">
+      <div className="py-20 px-5 md:px-10 xl:px-40 bg-linear-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe]">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial="hidden"

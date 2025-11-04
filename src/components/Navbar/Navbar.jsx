@@ -139,7 +139,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-gradient-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] sticky top-0 z-50 px-5 md:px-10 xl:px-40 py-4 shadow-sm">
+    <div className="navbar bg-linear-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] sticky top-0 z-50 px-5 md:px-10 xl:px-40 py-4 shadow-sm">
       <div className="navbar-start">
         <NavLink to="/">
           <img
@@ -155,7 +155,7 @@ const Navbar = () => {
             {list}
           </ul>
         </div>
-        <button className="btn text-base shadow-md rounded-full bg-gradient-to-r from-[#66d8fe] to-[#fdffc4] border-0 hover:scale-105 hover:shadow-xl transition-all duration-300 font-semibold hidden xl:flex px-6">
+        <button className="btn text-base shadow-md rounded-full bg-linear-to-r from-[#66d8fe] to-[#fdffc4] border-0 hover:scale-105 hover:shadow-xl transition-all duration-300 font-semibold hidden xl:flex px-6">
           Get a Custom Quote <GoArrowRight size={20} />
         </button>
         <div className="xl:hidden">

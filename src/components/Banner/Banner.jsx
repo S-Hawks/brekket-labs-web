@@ -6,7 +6,7 @@ import { Link } from "react-router";
 
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] px-5 md:px-10 xl:px-40 pt-6 pb-12 flex flex-col lg:flex-row items-center justify-center gap-10 overflow-hidden">
+    <div className="bg-linear-to-r from-[#fdffc4] via-[#cff3d5] to-[#66d8fe] px-5 md:px-10 xl:px-40 pt-6 pb-12 flex flex-col lg:flex-row items-center justify-center gap-10 overflow-hidden">
       <motion.div
         variants={staggerContainer(0.2, 0.1)}
         initial="hidden"

@@ -99,7 +99,7 @@ const Technologies = ({ technologies }) => {
           className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900"
         >
           Technologies We{" "}
-          <span className="bg-gradient-to-r from-cyan-600 to-cyan-700 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-cyan-600 to-cyan-700 bg-clip-text text-transparent">
             Master
           </span>
         </motion.h2>

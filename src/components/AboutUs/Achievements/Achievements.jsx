@@ -47,7 +47,7 @@ const Achievements = ({ achievements }) => {
               <p className="text-sm md:text-base font-bold text-gray-900 mb-2">
                 {data.label}
               </p>
-              <div className="w-12 h-1 bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] rounded-full"></div>
+              <div className="w-12 h-1 bg-linear-to-r from-[#66d8fe] to-[#cff3d5] rounded-full"></div>
             </div>
             <p className="text-xs text-gray-600 leading-relaxed mt-3">
               {data.description}

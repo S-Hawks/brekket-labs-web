@@ -47,14 +47,14 @@ const Mission = ({ missionAndVision }) => {
           whileInView="show"
           viewport={{ once: true }}
           whileHover={{ y: -5 }}
-          className="bg-gradient-to-br from-[#66d8fe]/10 to-[#cff3d5]/20 p-8 rounded-2xl hover:shadow-xl transition-all"
+          className="bg-linear-to-br from-[#66d8fe]/10 to-[#cff3d5]/20 p-8 rounded-2xl hover:shadow-xl transition-all"
         >
           <div className="mb-6">
             <h3 className="flex items-center text-2xl font-bold text-gray-900 mb-4 gap-3">
               <FaBullseye className="text-3xl text-cyan-700" />
               Our Mission
             </h3>
-            <div className="w-16 h-1 bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] rounded-full"></div>
+            <div className="w-16 h-1 bg-linear-to-r from-[#66d8fe] to-[#cff3d5] rounded-full"></div>
           </div>
           <p className="text-gray-700 leading-relaxed">
             {missionAndVision.mission}
@@ -66,14 +66,14 @@ const Mission = ({ missionAndVision }) => {
           whileInView="show"
           viewport={{ once: true }}
           whileHover={{ y: -5 }}
-          className="bg-gradient-to-br from-[#cff3d5]/10 to-[#fdffc4]/20 p-8 rounded-2xl hover:shadow-xl transition-all"
+          className="bg-linear-to-br from-[#cff3d5]/10 to-[#fdffc4]/20 p-8 rounded-2xl hover:shadow-xl transition-all"
         >
           <div className="mb-6">
             <h3 className="flex items-center text-2xl font-bold text-gray-900 mb-4 gap-3">
               <FaEye className="text-3xl text-green-600" />
               Our Vision
             </h3>
-            <div className="w-16 h-1 bg-gradient-to-r from-[#cff3d5] to-[#fdffc4] rounded-full"></div>
+            <div className="w-16 h-1 bg-linear-to-r from-[#cff3d5] to-[#fdffc4] rounded-full"></div>
           </div>
           <p className="text-gray-700 leading-relaxed">
             {missionAndVision.vision}
@@ -112,7 +112,7 @@ const Mission = ({ missionAndVision }) => {
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all"
             >
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">{icons[index]}</div>
+                <div className="flex-0">{icons[index]}</div>
                 <div className="flex-1">
                   <h4 className="text-xl font-bold text-gray-900 mb-3">
                     {value.title}

@@ -43,7 +43,7 @@ const Service = ({ service }) => {
             </motion.h3>
             <motion.div
               variants={fadeIn(0.4)}
-              className="w-20 h-1 bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] rounded-full mb-6"
+              className="w-20 h-1 bg-linear-to-r from-[#66d8fe] to-[#cff3d5] rounded-full mb-6"
             ></motion.div>
           </div>
 
@@ -57,13 +57,7 @@ const Service = ({ service }) => {
           <motion.div variants={scaleIn(0.7)} className="pt-4">
             <Link
               to={`/service-details/${service.id}`}
-              // whileHover={{
-              //   scale: 1.05,
-              //   y: -5,
-              //   boxShadow: "0 20px 40px rgba(0,0,0,0.15)",
-              // }}
-              // whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg transition-all duration-300"
+              className="bg-linear-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg transition-all duration-300"
             >
               Learn More
             </Link>

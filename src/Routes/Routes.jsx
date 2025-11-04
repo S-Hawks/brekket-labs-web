@@ -9,6 +9,8 @@ import Blogs from "../components/Blogs/Blogs";
 import AboutUs from "../components/AboutUs/AboutUs";
 import Login from "../pages/LogIn/Login";
 import Register from "../pages/Register/Register";
+import DashboardLayout from "../layout/DashboardLayout";
+import DashboardRoot from "../pages/Root/DashboardRoot";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +47,16 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         Component: Contact,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    Component: DashboardRoot,
+    children: [
+      {
+        index: true,
+        Component: DashboardLayout,
       },
     ],
   },

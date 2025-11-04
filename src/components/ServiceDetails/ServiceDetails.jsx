@@ -17,7 +17,7 @@ const ServiceDetails = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-16 px-5 md:px-10 xl:px-40">
+      <div className="bg-linear-to-br from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-16 px-5 md:px-10 xl:px-40">
         {/* Banner */}
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -42,7 +42,7 @@ const ServiceDetails = () => {
               className="w-full lg:w-1/2 flex justify-center"
             >
               <div className="relative group">
-                <div className="absolute -inset-4 bg-gradient-to-r from-[#66d8fe] to-[#fdffc4] rounded-3xl blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
+                <div className="absolute -inset-4 bg-linear-to-r from-[#66d8fe] to-[#fdffc4] rounded-3xl blur-lg opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
                 <img
                   src={isService.image}
                   alt={isService.title}
@@ -109,10 +109,10 @@ const ServiceDetails = () => {
             <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
               <motion.div
                 variants={scaleIn(0.3)}
-                className="bg-gradient-to-br from-[#cff3d5]/30 to-[#66d8fe]/20 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-linear-to-br from-[#cff3d5]/30 to-[#66d8fe]/20 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="p-3 bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] rounded-xl">
+                  <div className="p-3 bg-linear-to-r from-[#66d8fe] to-[#cff3d5] rounded-xl">
                     <FaCheckCircle className="text-white text-2xl" />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
@@ -137,10 +137,10 @@ const ServiceDetails = () => {
               </motion.div>
               <motion.div
                 variants={scaleIn(0.4)}
-                className="bg-gradient-to-br from-[#fdffc4]/40 to-[#cff3d5]/30 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="bg-linear-to-br from-[#fdffc4]/40 to-[#cff3d5]/30 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="p-3 bg-gradient-to-r from-[#fdffc4] to-[#66d8fe] rounded-xl">
+                  <div className="p-3 bg-linear-to-r from-[#fdffc4] to-[#66d8fe] rounded-xl">
                     <FaCode className="text-gray-900 text-2xl" />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
@@ -165,7 +165,7 @@ const ServiceDetails = () => {
         </div>
       </div>
       {/*  CTA = Call to Action part */}
-      <div className="bg-gradient-to-r from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-20 px-5 md:px-10 xl:px-40">
+      <div className="bg-linear-to-r from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-20 px-5 md:px-10 xl:px-40">
         <motion.div
           initial="hidden"
           whileInView="show"

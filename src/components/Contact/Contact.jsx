@@ -47,7 +47,7 @@ const Contact = () => {
           >
             <motion.div
               variants={fadeIn(0.3)}
-              className="bg-gradient-to-br from-[#66d8fe] to-[#cff3d5] rounded-2xl p-8 shadow-xl"
+              className="bg-linear-to-br from-[#66d8fe] to-[#cff3d5] rounded-2xl p-8 shadow-xl"
             >
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Let's Connect
@@ -146,7 +146,7 @@ const Contact = () => {
                   <motion.a
                     href="#"
                     whileHover={{ scale: 1.15, y: -5 }}
-                    className="w-11 h-11 bg-gradient-to-tr from-[#FCAF45] via-[#E1306C] to-[#833AB4] rounded-xl flex items-center justify-center text-white hover:shadow-lg hover:shadow-pink-500/50 transition-all"
+                    className="w-11 h-11 bg-linear-to-tr from-[#FCAF45] via-[#E1306C] to-[#833AB4] rounded-xl flex items-center justify-center text-white hover:shadow-lg hover:shadow-pink-500/50 transition-all"
                   >
                     <FaInstagram size={18} />
                   </motion.a>
@@ -252,7 +252,7 @@ const Contact = () => {
                   type="submit"
                   whileHover={{ scale: 1.02, y: -2 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full bg-gradient-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                  className="w-full bg-linear-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Send Message
                 </motion.button>

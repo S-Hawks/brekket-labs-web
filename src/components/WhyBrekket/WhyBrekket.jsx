@@ -6,7 +6,7 @@ const WhyBrekket = ({ featuresPromise }) => {
   const features = use(featuresPromise);
 
   return (
-    <section className="bg-gradient-to-br from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-20 px-5 md:px-10 xl:px-40">
+    <section className="bg-linear-to-br from-[#66d8fe] via-[#cff3d5] to-[#fdffc4] py-20 px-5 md:px-10 xl:px-40">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <motion.h2
