@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import { IoNotificationsOutline, IoMenu } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
 import {
@@ -12,10 +12,24 @@ import {
   IoPersonCircle,
   IoLogOut,
 } from "react-icons/io5";
-import { NavLink } from "react-router";
+import { NavLink, useNavigate } from "react-router";
+import { AuthContext } from "../../../provider/AuthContext";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { logOut } = use(AuthContext);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        navigate("/login");
+      })
+      .catch((error) => {
+        console.error("Logout error:", error);
+        alert("Failed to logout");
+      });
+  };
 
   const mobileMenu = (
     <>
@@ -23,6 +37,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/dashboard"
+          end
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -32,7 +47,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/analytics"
+          to="analytics"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -42,7 +57,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/profile"
+          to="profile"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -52,7 +67,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/users"
+          to="users"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -62,17 +77,17 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/projects"
+          to="projects"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
         >
-          <IoDocument /> Projects
+          <IoDocument /> Products
         </NavLink>
       </li>
       <li>
         <NavLink
-          to="/dashboard/billing"
+          to="billing"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -82,7 +97,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/notifications"
+          to="notifications"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -93,7 +108,7 @@ const Navbar = () => {
       <label className="text-gray-500 text-sm mt-6">GENERAL</label>
       <li>
         <NavLink
-          to="/dashboard/settings"
+          to="settings"
           className={({ isActive }) =>
             isActive ? "bg-primary text-primary-content font-semibold" : ""
           }
@@ -102,14 +117,9 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to="/logout"
-          className={({ isActive }) =>
-            isActive ? "bg-primary text-primary-content font-semibold" : ""
-          }
-        >
-          <IoLogOut /> LogOut
-        </NavLink>
+        <a onClick={handleLogout} className="cursor-pointer">
+          <IoLogOut /> Logout
+        </a>
       </li>
     </>
   );
@@ -133,7 +143,7 @@ const Navbar = () => {
           <ul
             className={`menu absolute bg-base-100 left-5 top-20 rounded-2xl w-11/12 max-w-md p-4 shadow-xl border border-base-300 text-base font-medium transition-all duration-300 ease-in-out ${
               menuOpen
-                ? "opacity-100 translate-y-0 visible"
+                ? "opacity-100 translate-y-0 visible z-50"
                 : "opacity-0 -translate-y-2 invisible"
             }`}
           >
@@ -185,7 +195,9 @@ const Navbar = () => {
               <a>Settings</a>
             </li>
             <li>
-              <a>Logout</a>
+              <a onClick={handleLogout} className="cursor-pointer">
+                <IoLogOut /> Logout
+              </a>
             </li>
           </ul>
         </div>

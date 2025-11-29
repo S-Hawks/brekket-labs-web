@@ -11,6 +11,13 @@ import Login from "../pages/LogIn/Login";
 import Register from "../pages/Register/Register";
 import DashboardLayout from "../layout/DashboardLayout";
 import DashboardRoot from "../pages/Root/DashboardRoot";
+import Users from "../components/Dashboard/Users/Users";
+import ProductDetails from "../components/ProductDetails/ProductDetails";
+import PrivateRoute from "../provider/PrivateRoute";
+import AddReviews from "../components/Dashboard/Reviews/AddReviews";
+import AllReviews from "../components/Dashboard/Reviews/AllReviews";
+import AddProducts from "../components/Dashboard/Products/AddProducts";
+import AllProducts from "../components/Dashboard/Products/AllProducts";
 
 export const router = createBrowserRouter([
   {
@@ -33,10 +40,17 @@ export const router = createBrowserRouter([
       },
       {
         path: "/products",
+        loader: () => fetch("http://localhost:3000/products"),
         Component: Products,
       },
       {
+        path: "/products-details/:productId",
+        loader: () => fetch("http://localhost:3000/products"),
+        Component: ProductDetails,
+      },
+      {
         path: "/blog",
+        loader: () => fetch("/Blogs.json"),
         Component: Blogs,
       },
       {
@@ -52,11 +66,38 @@ export const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    Component: DashboardRoot,
+    element: (
+      <PrivateRoute>
+        <DashboardRoot></DashboardRoot>
+      </PrivateRoute>
+    ),
     children: [
       {
         index: true,
         Component: DashboardLayout,
+      },
+      {
+        path: "users",
+        loader: () => fetch("http://localhost:3000/users"),
+        Component: Users,
+      },
+      {
+        path: "products/add",
+        Component: AddProducts,
+      },
+      {
+        path: "products/all",
+        loader: () => fetch("http://localhost:3000/products"),
+        Component: AllProducts,
+      },
+      {
+        path: "reviews/add",
+        Component: AddReviews,
+      },
+      {
+        path: "reviews/all",
+        loader: () => fetch("http://localhost:3000/reviews"),
+        Component: AllReviews,
       },
     ],
   },

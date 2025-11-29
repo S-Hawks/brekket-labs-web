@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "Enterprise CRM Suite",
+    "category": "Software",
+    "image": "https://i.ibb.co.com/placeholder-crm.png",
+    "description": "Our Enterprise CRM Suite helps businesses manage customer relationships, track sales pipelines, and automate workflows. With powerful analytics and seamless integrations, streamline your entire sales process.",
+    "features": [
+      "Contact & Lead Management",
+      "Sales Pipeline Tracking",
+      "Email Integration",
+      "Advanced Analytics Dashboard",
+      "Custom Workflow Automation",
+      "Mobile App Access",
+      "Third-party API Integration",
+      "24/7 Customer Support"
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "Redis", "AWS"],
+    "howToUse": [
+      "Sign up and create your account",
+      "Import existing contacts or add them manually",
+      "Set up your sales pipeline stages",
+      "Connect your email and other tools",
+      "Start tracking leads and managing customer relationships",
+      "Use analytics dashboard to monitor performance"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "AI ChatBot Platform",
+    "category": "AI/ML",
+    "image": "https://i.ibb.co.com/placeholder-chatbot.png",
+    "description": "Deploy AI-powered chatbots on your website, app, or social media. Our platform uses natural language processing to understand customer queries and provide instant, accurate responses 24/7.",
+    "features": [
+      "Natural Language Processing",
+      "Multi-language Support",
+      "Custom Training Capability",
+      "Sentiment Analysis",
+      "Live Chat Handoff",
+      "Analytics & Insights",
+      "Integration with Popular Platforms",
+      "Conversation History"
+    ],
+    "technologies": ["Python", "TensorFlow", "NLP", "FastAPI", "PostgreSQL"],
+    "howToUse": [
+      "Create your chatbot account",
+      "Train the bot with your business data and FAQs",
+      "Customize responses and conversation flows",
+      "Integrate with your website or app using provided code",
+      "Test the chatbot with sample queries",
+      "Monitor conversations and improve responses over time"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "E-Commerce Builder Pro",
+    "category": "Platform",
+    "image": "https://i.ibb.co.com/placeholder-ecommerce.png",
+    "description": "Everything you need to start, run, and grow your online business. From product management to payment processing, inventory tracking to marketing tools - all in one platform.",
+    "features": [
+      "Unlimited Products",
+      "Multiple Payment Gateways",
+      "Inventory Management",
+      "SEO Optimization Tools",
+      "Marketing & Promotions",
+      "Mobile Responsive Design",
+      "Order Tracking System",
+      "Multi-currency Support"
+    ],
+    "technologies": ["Next.js", "Stripe", "Tailwind CSS", "MongoDB", "Vercel"],
+    "howToUse": [
+      "Choose a template or start from scratch",
+      "Add your products with images and descriptions",
+      "Set up payment gateways (Stripe, PayPal, etc.)",
+      "Configure shipping options and tax settings",
+      "Customize your store design and branding",
+      "Launch your store and start selling"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Project Management Dashboard",
+    "category": "Productivity",
+    "image": "https://i.ibb.co.com/placeholder-project.png",
+    "description": "Keep your projects on track with task management, time tracking, team collaboration, and real-time reporting. Perfect for agile teams and remote work environments.",
+    "features": [
+      "Task & Milestone Tracking",
+      "Gantt Charts & Kanban Boards",
+      "Time Tracking & Reporting",
+      "Team Collaboration Tools",
+      "File Sharing & Storage",
+      "Calendar Integration",
+      "Custom Workflows",
+      "Notifications & Reminders"
+    ],
+    "technologies": ["Vue.js", "Express", "Socket.io", "PostgreSQL", "Docker"],
+    "howToUse": [
+      "Create a new project and invite team members",
+      "Break down project into tasks and milestones",
+      "Assign tasks to team members with deadlines",
+      "Use Kanban or Gantt view to visualize progress",
+      "Track time spent on each task",
+      "Generate reports and share with stakeholders"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cloud Storage & Backup",
+    "category": "Infrastructure",
+    "image": "https://i.ibb.co.com/placeholder-cloud.png",
+    "description": "Store, sync, and share your files securely in the cloud. With end-to-end encryption, automatic backups, and team collaboration features, your data is always safe and accessible.",
+    "features": [
+      "1TB Secure Storage",
+      "Automatic Backup",
+      "File Versioning",
+      "End-to-End Encryption",
+      "Share & Collaborate",
+      "Cross-platform Sync",
+      "Advanced Security",
+      "Disaster Recovery"
+    ],
+    "technologies": ["AWS S3", "Encryption", "CDN", "Node.js", "React Native"],
+    "howToUse": [
+      "Install the desktop and mobile apps",
+      "Select folders to sync automatically",
+      "Upload files via web interface or drag-and-drop",
+      "Share files or folders with team members",
+      "Set up automatic backup schedules",
+      "Access your files from any device, anywhere"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Analytics & Insights Pro",
+    "category": "Analytics",
+    "image": "https://i.ibb.co.com/placeholder-analytics.png",
+    "description": "Turn data into actionable insights with our powerful analytics platform. Track user behavior, measure KPIs, create custom dashboards, and make data-driven decisions with confidence.",
+    "features": [
+      "Real-time Data Processing",
+      "Custom Dashboard Builder",
+      "Advanced Segmentation",
+      "Predictive Analytics",
+      "A/B Testing Tools",
+      "Export & API Access",
+      "Funnel Analysis",
+      "Heatmaps & Session Recording"
+    ],
+    "technologies": [
+      "Python",
+      "Apache Kafka",
+      "Elasticsearch",
+      "D3.js",
+      "Kubernetes"
+    ],
+    "howToUse": [
+      "Add tracking code to your website or app",
+      "Define your key performance indicators (KPIs)",
+      "Create custom dashboards for different metrics",
+      "Set up user segments for detailed analysis",
+      "Monitor real-time data and trends",
+      "Export reports or integrate with other tools via API"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Automation",
+    "category": "Marketing",
+    "image": "https://i.ibb.co.com/placeholder-email.png",
+    "description": "Create, send, and track email campaigns that convert. With drag-and-drop builder, automation workflows, and detailed analytics, reaching your audience has never been easier.",
+    "features": [
+      "Drag & Drop Email Builder",
+      "Marketing Automation",
+      "A/B Testing",
+      "Segmentation & Personalization",
+      "Landing Page Builder",
+      "Detailed Analytics",
+      "List Management",
+      "Templates Library"
+    ],
+    "technologies": ["Node.js", "SendGrid", "Redis", "React", "MongoDB"],
+    "howToUse": [
+      "Import your email list or build it with signup forms",
+      "Create email campaigns using drag-and-drop builder",
+      "Segment your audience for targeted messaging",
+      "Set up automation workflows (welcome series, drip campaigns)",
+      "Schedule or send campaigns immediately",
+      "Track opens, clicks, and conversions in real-time"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "API Gateway & Management",
+    "category": "Developer Tools",
+    "image": "https://i.ibb.co.com/placeholder-api.png",
+    "description": "Centralize API management with our robust gateway. Control access, monitor performance, implement rate limiting, and ensure security across all your microservices.",
+    "features": [
+      "API Authentication & Authorization",
+      "Rate Limiting & Throttling",
+      "Request/Response Transformation",
+      "Monitoring & Logging",
+      "Version Management",
+      "Load Balancing",
+      "Developer Portal",
+      "API Analytics"
+    ],
+    "technologies": ["Kong", "NGINX", "Kubernetes", "Redis", "Prometheus"],
+    "howToUse": [
+      "Deploy the gateway in your infrastructure",
+      "Register your microservices and APIs",
+      "Configure authentication and authorization rules",
+      "Set rate limits and throttling policies",
+      "Monitor API performance and usage metrics",
+      "Use developer portal to manage API documentation"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "HR & Payroll System",
+    "category": "HR Management",
+    "image": "https://i.ibb.co.com/placeholder-hr.png",
+    "description": "Streamline your HR operations with our all-in-one platform. Manage employee records, track attendance, process payroll, and handle leave management efficiently.",
+    "features": [
+      "Employee Database",
+      "Attendance Tracking",
+      "Payroll Processing",
+      "Leave Management",
+      "Performance Reviews",
+      "Document Management",
+      "Recruitment Module",
+      "Compliance Reporting"
+    ],
+    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Java", "Azure"],
+    "howToUse": [
+      "Set up company structure and departments",
+      "Add employee profiles with all relevant information",
+      "Configure payroll settings and salary structures",
+      "Employees clock in/out for attendance tracking",
+      "Process monthly payroll with automatic calculations",
+      "Generate compliance reports and manage leave requests"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Cybersecurity Suite",
+    "category": "Security",
+    "image": "https://i.ibb.co.com/placeholder-security.png",
+    "description": "Comprehensive cybersecurity platform with threat detection, vulnerability scanning, firewall management, and real-time monitoring to keep your infrastructure secure.",
+    "features": [
+      "Real-time Threat Detection",
+      "Vulnerability Scanning",
+      "Firewall Management",
+      "Intrusion Prevention",
+      "Security Audit Logs",
+      "Compliance Monitoring",
+      "Endpoint Protection",
+      "Incident Response"
+    ],
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "Snort",
+      "ELK Stack",
+      "Docker"
+    ],
+    "howToUse": [
+      "Install security agents on all endpoints",
+      "Configure firewall rules and policies",
+      "Run initial vulnerability scan of your infrastructure",
+      "Set up real-time threat monitoring and alerts",
+      "Review security dashboard regularly",
+      "Respond to incidents using automated workflows"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Learning Management System",
+    "category": "Education",
+    "image": "https://i.ibb.co.com/placeholder-lms.png",
+    "description": "Build your online academy with course creation tools, student management, assessments, and certifications. Perfect for educational institutions and corporate training.",
+    "features": [
+      "Course Builder",
+      "Video Hosting",
+      "Quiz & Assessments",
+      "Student Progress Tracking",
+      "Certificates & Badges",
+      "Discussion Forums",
+      "Mobile Learning App",
+      "Integration with Zoom"
+    ],
+    "technologies": ["React", "Node.js", "MongoDB", "AWS", "WebRTC"],
+    "howToUse": [
+      "Create your academy and customize branding",
+      "Build courses with videos, documents, and quizzes",
+      "Enroll students or allow self-registration",
+      "Students access courses via web or mobile app",
+      "Track student progress and engagement",
+      "Issue certificates upon course completion"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "IoT Device Manager",
+    "category": "IoT",
+    "image": "https://i.ibb.co.com/placeholder-iot.png",
+    "description": "Manage thousands of IoT devices effortlessly. Monitor status, collect sensor data, push updates, and control devices remotely with our scalable IoT platform.",
+    "features": [
+      "Device Registration & Provisioning",
+      "Real-time Monitoring",
+      "Remote Control & Updates",
+      "Data Collection & Visualization",
+      "Alert & Notifications",
+      "Edge Computing Support",
+      "Security & Encryption",
+      "API & SDK Access"
+    ],
+    "technologies": ["MQTT", "AWS IoT", "Python", "InfluxDB", "Grafana"],
+    "howToUse": [
+      "Register your IoT devices on the platform",
+      "Configure device settings and connectivity",
+      "Set up data collection and visualization dashboards",
+      "Monitor device status and sensor data in real-time",
+      "Create alerts for specific conditions or thresholds",
+      "Push firmware updates remotely to all devices"
+    ]
+  }
+]

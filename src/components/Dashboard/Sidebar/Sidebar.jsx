@@ -1,4 +1,4 @@
-import React from "react";
+import React, { use } from "react";
 import {
   IoHome,
   IoSettings,
@@ -10,10 +10,26 @@ import {
   IoPersonCircle,
   IoLogOut,
 } from "react-icons/io5";
-import { NavLink } from "react-router";
+import { MdReviews } from "react-icons/md";
+import { NavLink, useNavigate } from "react-router";
 import Logo from "../../../assets/Group 427319169.png";
+import { AuthContext } from "../../../provider/AuthContext";
 
 const Sidebar = () => {
+  const { logOut } = use(AuthContext);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        navigate("/login");
+      })
+      .catch((error) => {
+        console.error("Logout error:", error);
+        alert("Failed to logout");
+      });
+  };
+
   const menuItems = (
     <>
       <label className="text-gray-500 text-sm my-2 font-semibold tracking-wider">
@@ -22,6 +38,7 @@ const Sidebar = () => {
       <li>
         <NavLink
           to="/dashboard"
+          end
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -35,7 +52,7 @@ const Sidebar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/analytics"
+          to="analytics"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -49,7 +66,7 @@ const Sidebar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/profile"
+          to="profile"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -63,7 +80,7 @@ const Sidebar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/users"
+          to="users"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -76,22 +93,47 @@ const Sidebar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to="/dashboard/projects"
-          className={({ isActive }) =>
-            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
-              isActive
-                ? "bg-primary text-primary-content font-semibold"
-                : "hover:bg-base-300"
-            }`
-          }
-        >
-          <IoDocument size={20} /> Projects
-        </NavLink>
+        <details>
+          {" "}
+          <summary>
+            {" "}
+            <IoDocument size={20} /> Products
+          </summary>
+          <ul className="p-2">
+            <li>
+              <NavLink
+                to="products/all"
+                className={({ isActive }) =>
+                  `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+                    isActive
+                      ? "bg-primary text-primary-content font-semibold"
+                      : "hover:bg-base-300"
+                  }`
+                }
+              >
+                All Products
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="products/add"
+                className={({ isActive }) =>
+                  `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+                    isActive
+                      ? "bg-primary text-primary-content font-semibold"
+                      : "hover:bg-base-300"
+                  }`
+                }
+              >
+                Add Products
+              </NavLink>
+            </li>
+          </ul>
+        </details>
       </li>
       <li>
         <NavLink
-          to="/dashboard/billing"
+          to="billing"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -105,7 +147,7 @@ const Sidebar = () => {
       </li>
       <li>
         <NavLink
-          to="/dashboard/notifications"
+          to="notifications"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -117,13 +159,50 @@ const Sidebar = () => {
           <IoNotifications size={20} /> Notifications
         </NavLink>
       </li>
+      <li>
+        <details>
+          <summary className="flex items-center gap-3">
+            <MdReviews size={20} /> Reviews
+          </summary>
+          <ul className="p-2">
+            <li>
+              <NavLink
+                to="reviews/all"
+                className={({ isActive }) =>
+                  `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+                    isActive
+                      ? "bg-primary text-primary-content font-semibold"
+                      : "hover:bg-base-300"
+                  }`
+                }
+              >
+                All Reviews
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="reviews/add"
+                className={({ isActive }) =>
+                  `flex items-center gap-3 rounded-lg transition-all duration-200 ${
+                    isActive
+                      ? "bg-primary text-primary-content font-semibold"
+                      : "hover:bg-base-300"
+                  }`
+                }
+              >
+                Add Reviews
+              </NavLink>
+            </li>
+          </ul>
+        </details>
+      </li>
 
       <label className="text-gray-500 text-sm mt-6 mb-2 font-semibold tracking-wider">
         GENERAL
       </label>
       <li>
         <NavLink
-          to="/dashboard/settings"
+          to="settings"
           className={({ isActive }) =>
             `flex items-center gap-3 rounded-lg transition-all duration-200 ${
               isActive
@@ -136,18 +215,12 @@ const Sidebar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to="/logout"
-          className={({ isActive }) =>
-            `flex items-center gap-3 rounded-lg transition-all duration-200 ${
-              isActive
-                ? "bg-primary text-primary-content font-semibold"
-                : "hover:bg-base-300"
-            }`
-          }
+        <button
+          onClick={handleLogout}
+          className="flex items-center gap-3 rounded-lg transition-all duration-200"
         >
           <IoLogOut size={20} /> LogOut
-        </NavLink>
+        </button>
       </li>
     </>
   );

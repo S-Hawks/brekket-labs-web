@@ -66,28 +66,60 @@ const Footer = () => {
             <h4 className="text-lg font-bold text-white mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="" className="hover:text-[#66d8fe] transition-colors">
-                  Web Development
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-[#66d8fe] transition-colors">
-                  Mobile Apps
-                </a>
-              </li>
-              <li>
-                <a href="" className="hover:text-[#66d8fe] transition-colors">
+                <a
+                  href="/service-details/1"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
                   UI/UX Design
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-[#66d8fe] transition-colors">
-                  Cloud Solutions
+                <a
+                  href="/service-details/2"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
+                  Web Development
                 </a>
               </li>
               <li>
-                <a href="" className="hover:text-[#66d8fe] transition-colors">
+                <a
+                  href="/service-details/3"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
+                  Mobile Apps
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/service-details/4"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
+                  Custom Software
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/service-details/5"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
                   DevOps
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/service-details/6"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
+                  Software Testing
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/service-details/7"
+                  className="hover:text-[#66d8fe] transition-colors"
+                >
+                  Cloud Solutions
                 </a>
               </li>
             </ul>
@@ -135,7 +167,7 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MdMarkEmailUnread size={20} color="#66d8fe" />
                 <a href="" className="hover:text-[#66d8fe] transition-colors">
-                  hello@brekketlabs.com
+                  contact@brekket.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

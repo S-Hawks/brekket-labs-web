@@ -66,7 +66,7 @@ const Contact = () => {
                       href=""
                       className="text-gray-900 font-medium hover:underline"
                     >
-                      hello@brekketlabs.com
+                     contact@brekket.com
                     </a>
                     <p className="text-xs text-gray-700 mt-1">
                       We'll respond within 24 hours

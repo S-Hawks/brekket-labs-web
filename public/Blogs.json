@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Web Development: Trends to Watch in 2025",
+    "slug": "future-of-web-development-2025",
+    "author": {
+      "name": "Alex Thompson",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "role": "Senior Full Stack Developer"
+    },
+    "category": "Web Development",
+    "tags": ["Web Development", "Trends", "Technology", "Future"],
+    "image": "https://i.ibb.co.com/placeholder-web-trends.png",
+    "excerpt": "Explore the cutting-edge technologies and methodologies that are shaping the future of web development. From AI integration to edge computing, discover what's next.",
+    "content": "The web development landscape is evolving rapidly. In this comprehensive guide, we explore emerging trends like Server-Side Rendering, Progressive Web Apps, WebAssembly, and AI-powered development tools. Learn how these technologies are revolutionizing the way we build web applications and what skills you need to stay ahead in the industry.",
+    "readTime": 8,
+    "publishedDate": "2024-11-01",
+    "lastUpdated": "2024-11-01",
+    "views": 1247,
+    "likes": 89,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Microservices Architecture: Best Practices and Common Pitfalls",
+    "slug": "microservices-architecture-best-practices",
+    "author": {
+      "name": "Sarah Mitchell",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "role": "Solutions Architect"
+    },
+    "category": "Architecture",
+    "tags": ["Microservices", "Architecture", "Best Practices", "DevOps"],
+    "image": "https://i.ibb.co.com/placeholder-microservices.png",
+    "excerpt": "A deep dive into microservices architecture, covering design patterns, implementation strategies, and lessons learned from real-world deployments.",
+    "content": "Microservices have transformed how we build scalable applications. This article covers essential topics including service decomposition, inter-service communication, data management, monitoring, and deployment strategies. We'll also discuss common mistakes teams make and how to avoid them when transitioning from monolithic to microservices architecture.",
+    "readTime": 12,
+    "publishedDate": "2024-10-28",
+    "lastUpdated": "2024-10-28",
+    "views": 2134,
+    "likes": 156,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Building Secure APIs: A Comprehensive Security Guide",
+    "slug": "building-secure-apis-security-guide",
+    "author": {
+      "name": "Mohammed Hassan",
+      "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+      "role": "Security Engineer"
+    },
+    "category": "Security",
+    "tags": ["API Security", "Authentication", "Security", "Best Practices"],
+    "image": "https://i.ibb.co.com/placeholder-api-security.png",
+    "excerpt": "Learn essential security practices for building robust and secure APIs. From authentication to rate limiting, protect your applications from common vulnerabilities.",
+    "content": "API security is paramount in today's interconnected world. This comprehensive guide covers OAuth 2.0, JWT tokens, API key management, rate limiting, input validation, CORS policies, and encryption. We'll walk through real-world security incidents and demonstrate how to implement defense-in-depth strategies to protect your APIs from attacks.",
+    "readTime": 10,
+    "publishedDate": "2024-10-25",
+    "lastUpdated": "2024-10-26",
+    "views": 1876,
+    "likes": 142,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "React Performance Optimization: Tips and Techniques",
+    "slug": "react-performance-optimization-tips",
+    "author": {
+      "name": "Jessica Park",
+      "avatar": "https://randomuser.me/api/portraits/women/26.jpg",
+      "role": "Frontend Developer"
+    },
+    "category": "Frontend",
+    "tags": ["React", "Performance", "Optimization", "JavaScript"],
+    "image": "https://i.ibb.co.com/placeholder-react-perf.png",
+    "excerpt": "Discover proven techniques to optimize your React applications for better performance. Learn about memoization, code splitting, lazy loading, and more.",
+    "content": "Performance is crucial for user experience. This article explores React optimization techniques including useMemo and useCallback hooks, React.memo, code splitting with dynamic imports, virtualization for large lists, image optimization, and avoiding unnecessary re-renders. We'll also cover profiling tools and how to identify performance bottlenecks in your React applications.",
+    "readTime": 9,
+    "publishedDate": "2024-10-22",
+    "lastUpdated": "2024-10-22",
+    "views": 3245,
+    "likes": 287,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "DevOps in 2024: Tools, Practices, and Automation",
+    "slug": "devops-2024-tools-practices-automation",
+    "author": {
+      "name": "David Kumar",
+      "avatar": "https://randomuser.me/api/portraits/men/52.jpg",
+      "role": "DevOps Engineer"
+    },
+    "category": "DevOps",
+    "tags": ["DevOps", "CI/CD", "Automation", "Infrastructure"],
+    "image": "https://i.ibb.co.com/placeholder-devops.png",
+    "excerpt": "An overview of modern DevOps practices and the tools that are revolutionizing software delivery. From containerization to Infrastructure as Code.",
+    "content": "DevOps continues to evolve with new tools and practices. This article covers Docker and Kubernetes for containerization, Terraform for Infrastructure as Code, GitHub Actions and Jenkins for CI/CD, monitoring with Prometheus and Grafana, and GitOps workflows. Learn how to implement a complete DevOps pipeline and achieve continuous deployment with confidence.",
+    "readTime": 11,
+    "publishedDate": "2024-10-20",
+    "lastUpdated": "2024-10-21",
+    "views": 1998,
+    "likes": 167,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Understanding Database Indexing: A Performance Guide",
+    "slug": "database-indexing-performance-guide",
+    "author": {
+      "name": "Rachel Green",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
+      "role": "Database Administrator"
+    },
+    "category": "Database",
+    "tags": ["Database", "Performance", "SQL", "Optimization"],
+    "image": "https://i.ibb.co.com/placeholder-database.png",
+    "excerpt": "Master database indexing strategies to dramatically improve query performance. Learn when to use indexes and how to avoid common indexing mistakes.",
+    "content": "Database performance is critical for application success. This guide explains different index types (B-tree, Hash, Full-text), when to use them, composite indexes, covering indexes, and how to analyze query execution plans. We'll also discuss index maintenance, the trade-offs between read and write performance, and how to identify missing or unused indexes in your database.",
+    "readTime": 10,
+    "publishedDate": "2024-10-18",
+    "lastUpdated": "2024-10-18",
+    "views": 1543,
+    "likes": 121,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning for Developers: Getting Started Guide",
+    "slug": "machine-learning-developers-getting-started",
+    "author": {
+      "name": "Dr. Emily Chen",
+      "avatar": "https://randomuser.me/api/portraits/women/89.jpg",
+      "role": "ML Engineer"
+    },
+    "category": "Machine Learning",
+    "tags": ["Machine Learning", "AI", "Python", "TensorFlow"],
+    "image": "https://i.ibb.co.com/placeholder-ml.png",
+    "excerpt": "A practical introduction to machine learning for software developers. Learn the fundamentals and build your first ML model from scratch.",
+    "content": "Machine learning doesn't have to be intimidating. This beginner-friendly guide covers ML fundamentals, supervised vs unsupervised learning, common algorithms, feature engineering, model training and evaluation, and deploying ML models to production. We'll build a real classification model using Python and scikit-learn, and discuss when to use ML in your applications.",
+    "readTime": 15,
+    "publishedDate": "2024-10-15",
+    "lastUpdated": "2024-10-16",
+    "views": 2876,
+    "likes": 234,
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "The Complete Guide to REST API Design",
+    "slug": "complete-guide-rest-api-design",
+    "author": {
+      "name": "Marcus Johnson",
+      "avatar": "https://randomuser.me/api/portraits/men/71.jpg",
+      "role": "Backend Developer"
+    },
+    "category": "Backend",
+    "tags": ["REST API", "API Design", "Backend", "Best Practices"],
+    "image": "https://i.ibb.co.com/placeholder-rest-api.png",
+    "excerpt": "Design RESTful APIs that are intuitive, scalable, and maintainable. Follow industry best practices and learn from real-world examples.",
+    "content": "Designing great APIs is an art and science. This comprehensive guide covers REST principles, resource naming conventions, HTTP methods and status codes, versioning strategies, pagination and filtering, error handling, documentation with OpenAPI/Swagger, and API evolution. Learn how to create APIs that developers love to use and that stand the test of time.",
+    "readTime": 13,
+    "publishedDate": "2024-10-12",
+    "lastUpdated": "2024-10-12",
+    "views": 2567,
+    "likes": 198,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "Cloud Migration Strategy: From On-Premise to AWS",
+    "slug": "cloud-migration-strategy-aws",
+    "author": {
+      "name": "Jennifer Williams",
+      "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+      "role": "Cloud Architect"
+    },
+    "category": "Cloud Computing",
+    "tags": ["Cloud", "AWS", "Migration", "Infrastructure"],
+    "image": "https://i.ibb.co.com/placeholder-cloud-migration.png",
+    "excerpt": "Plan and execute a successful cloud migration. Learn the strategies, challenges, and best practices for moving to AWS.",
+    "content": "Cloud migration is a transformative journey. This article provides a detailed roadmap covering assessment and planning, choosing migration strategies (rehost, replatform, refactor), AWS services overview, cost optimization, security considerations, disaster recovery, and post-migration optimization. We'll also discuss common pitfalls and how to ensure business continuity during the migration process.",
+    "readTime": 14,
+    "publishedDate": "2024-10-09",
+    "lastUpdated": "2024-10-10",
+    "views": 1734,
+    "likes": 143,
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "Mobile App Development: Native vs Cross-Platform",
+    "slug": "mobile-app-native-vs-cross-platform",
+    "author": {
+      "name": "Carlos Rodriguez",
+      "avatar": "https://randomuser.me/api/portraits/men/43.jpg",
+      "role": "Mobile Developer"
+    },
+    "category": "Mobile Development",
+    "tags": ["Mobile", "React Native", "Flutter", "iOS", "Android"],
+    "image": "https://i.ibb.co.com/placeholder-mobile.png",
+    "excerpt": "Choosing between native and cross-platform development? This comprehensive comparison will help you make the right decision for your project.",
+    "content": "The native vs cross-platform debate continues. This article compares native development (Swift/Kotlin) with cross-platform frameworks (React Native, Flutter), covering performance, development speed, cost, maintainability, user experience, and access to native features. We provide decision frameworks and real-world case studies to help you choose the best approach for your mobile app project.",
+    "readTime": 11,
+    "publishedDate": "2024-10-06",
+    "lastUpdated": "2024-10-06",
+    "views": 2198,
+    "likes": 176,
+    "featured": false
+  },
+  {
+    "id": 11,
+    "title": "GraphQL vs REST: When to Use Each",
+    "slug": "graphql-vs-rest-when-to-use",
+    "author": {
+      "name": "Nina Patel",
+      "avatar": "https://randomuser.me/api/portraits/women/54.jpg",
+      "role": "API Developer"
+    },
+    "category": "Backend",
+    "tags": ["GraphQL", "REST", "API", "Backend"],
+    "image": "https://i.ibb.co.com/placeholder-graphql.png",
+    "excerpt": "Understand the key differences between GraphQL and REST APIs. Learn which approach fits your use case and how to implement each effectively.",
+    "content": "GraphQL and REST each have their strengths. This article explores the fundamental differences, advantages and disadvantages of each approach, over-fetching and under-fetching problems, caching strategies, tooling and ecosystem, and real-world scenarios where one excels over the other. We'll also cover migration strategies and how to implement GraphQL with Apollo Server.",
+    "readTime": 10,
+    "publishedDate": "2024-10-03",
+    "lastUpdated": "2024-10-03",
+    "views": 3456,
+    "likes": 298,
+    "featured": false
+  },
+  {
+    "id": 12,
+    "title": "Agile Development: Scrum Best Practices for Teams",
+    "slug": "agile-development-scrum-best-practices",
+    "author": {
+      "name": "Robert Taylor",
+      "avatar": "https://randomuser.me/api/portraits/men/64.jpg",
+      "role": "Scrum Master"
+    },
+    "category": "Project Management",
+    "tags": ["Agile", "Scrum", "Project Management", "Team Collaboration"],
+    "image": "https://i.ibb.co.com/placeholder-agile.png",
+    "excerpt": "Implement Scrum effectively in your development team. Learn best practices, common challenges, and how to maximize team productivity.",
+    "content": "Agile methodologies drive modern software development. This guide covers Scrum fundamentals, sprint planning, daily standups, retrospectives, backlog refinement, story points and estimation, dealing with scope creep, and fostering team collaboration. We share insights from teams that have successfully adopted Scrum and provide actionable tips to improve your agile process.",
+    "readTime": 9,
+    "publishedDate": "2024-09-30",
+    "lastUpdated": "2024-09-30",
+    "views": 1876,
+    "likes": 154,
+    "featured": false
+  },
+  {
+    "id": 13,
+    "title": "Serverless Architecture: Building with AWS Lambda",
+    "slug": "serverless-architecture-aws-lambda",
+    "author": {
+      "name": "Lisa Anderson",
+      "avatar": "https://randomuser.me/api/portraits/women/72.jpg",
+      "role": "Cloud Engineer"
+    },
+    "category": "Cloud Computing",
+    "tags": ["Serverless", "AWS Lambda", "Cloud", "Architecture"],
+    "image": "https://i.ibb.co.com/placeholder-serverless.png",
+    "excerpt": "Discover the power of serverless computing with AWS Lambda. Learn how to build scalable, cost-effective applications without managing servers.",
+    "content": "Serverless is changing how we build applications. This article covers Lambda fundamentals, event-driven architecture, API Gateway integration, DynamoDB for data persistence, cold start optimization, monitoring with CloudWatch, cost management, and best practices for production deployments. We'll build a complete serverless application and discuss when serverless is the right choice.",
+    "readTime": 12,
+    "publishedDate": "2024-09-27",
+    "lastUpdated": "2024-09-28",
+    "views": 2234,
+    "likes": 189,
+    "featured": false
+  },
+  {
+    "id": 14,
+    "title": "TypeScript for JavaScript Developers: A Practical Guide",
+    "slug": "typescript-for-javascript-developers",
+    "author": {
+      "name": "Andrew Lee",
+      "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
+      "role": "Full Stack Developer"
+    },
+    "category": "Frontend",
+    "tags": ["TypeScript", "JavaScript", "Programming", "Web Development"],
+    "image": "https://i.ibb.co.com/placeholder-typescript.png",
+    "excerpt": "Make the transition from JavaScript to TypeScript smooth and productive. Learn type safety, interfaces, generics, and advanced patterns.",
+    "content": "TypeScript adds powerful type safety to JavaScript. This practical guide covers basic types, interfaces and type aliases, generics, utility types, decorators, module systems, configuration with tsconfig.json, and gradual migration strategies. We'll refactor a JavaScript project to TypeScript and show how type safety prevents bugs and improves developer experience.",
+    "readTime": 11,
+    "publishedDate": "2024-09-24",
+    "lastUpdated": "2024-09-24",
+    "views": 4123,
+    "likes": 367,
+    "featured": false
+  },
+  {
+    "id": 15,
+    "title": "Blockchain Development: Smart Contracts with Solidity",
+    "slug": "blockchain-development-smart-contracts-solidity",
+    "author": {
+      "name": "Michael Zhang",
+      "avatar": "https://randomuser.me/api/portraits/men/91.jpg",
+      "role": "Blockchain Developer"
+    },
+    "category": "Blockchain",
+    "tags": ["Blockchain", "Solidity", "Smart Contracts", "Web3"],
+    "image": "https://i.ibb.co.com/placeholder-blockchain.png",
+    "excerpt": "Enter the world of blockchain development. Learn how to create, test, and deploy smart contracts using Solidity and Ethereum.",
+    "content": "Blockchain technology is revolutionizing industries. This comprehensive guide introduces Ethereum, Solidity programming language, smart contract development, testing with Hardhat, deployment strategies, gas optimization, security best practices, and interacting with contracts from web applications. We'll build and deploy a complete DApp and discuss real-world use cases for blockchain technology.",
+    "readTime": 16,
+    "publishedDate": "2024-09-21",
+    "lastUpdated": "2024-09-22",
+    "views": 1567,
+    "likes": 128,
+    "featured": false
+  }
+]

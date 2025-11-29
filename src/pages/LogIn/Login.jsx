@@ -1,8 +1,44 @@
-import React from "react";
-import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router";
+import React, { use } from "react";
+import { Link, useNavigate } from "react-router";
+import { AuthContext } from "../../provider/AuthContext";
 
 const Login = () => {
+  const { signIn } = use(AuthContext);
+  const navigate = useNavigate();
+
+  const handleLogIn = async (e) => {
+    e.preventDefault();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    //console.log(email, password);
+    try {
+      const userCredential = await signIn(email, password);
+      const user = userCredential.user;
+
+      const dbResponse = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: email }),
+      });
+
+      //console.log("Status:", dbResponse.status);
+      //const data = await dbResponse.json().catch(() => ({}));
+      //console.log("Server data:", data);
+
+      if (!dbResponse.ok) {
+        alert("Access denied");
+        return;
+      }
+      alert(`Welcome ${user.displayName}! Login successful.`);
+      navigate("/dashboard");
+    } catch (error) {
+      console.error("Login error:", error);
+      alert(error.message || "Login failed");
+    }
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center py-12">
       <div className="card bg-base-100 shadow-2xl w-full max-w-md">
@@ -13,8 +49,8 @@ const Login = () => {
               Login to continue your journey
             </p>
           </div>
-
-          <form>
+          {/* LogIn Form */}
+          <form onSubmit={handleLogIn}>
             <fieldset className="fieldset text-base font-medium space-y-4">
               <div>
                 <label>Email</label>
@@ -49,13 +85,6 @@ const Login = () => {
               </button>
             </fieldset>
           </form>
-
-          <div className="divider">OR</div>
-
-          <button className="btn btn-outline w-full hover:bg-green-100">
-            <FcGoogle className="text-xl" />
-            Continue with Google
-          </button>
           <p className="text-center mt-6 text-gray-600">
             Don't have an account?{" "}
             <Link
