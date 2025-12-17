@@ -8,6 +8,7 @@ const ServiceDetails = () => {
   const allServiceData = useLoaderData();
   const { serviceId } = useParams();
   const [isService, setIsService] = useState({});
+  //console.log(allServiceData, serviceId);
 
   useEffect(() => {
     const serviceDetail = allServiceData.find((data) => data.id == serviceId);
@@ -27,11 +28,11 @@ const ServiceDetails = () => {
             className="mb-8"
           >
             <Link
-              to="/"
+              to="/services"
               className="inline-flex items-center gap-2 text-gray-900 hover:text-gray-700 transition-colors duration-300 font-medium"
             >
               <FaArrowLeft className="text-lg" />
-              <span>Back to Home</span>
+              <span>Back</span>
             </Link>
           </motion.div>
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -197,7 +198,7 @@ const ServiceDetails = () => {
               Contact Us Now
             </Link>
             <Link
-              to="/"
+              to="/services"
               className="bg-white text-gray-900 text-lg px-10 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 font-semibold border-2 border-gray-900"
             >
               View All Services

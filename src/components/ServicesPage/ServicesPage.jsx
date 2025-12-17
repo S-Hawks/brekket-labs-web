@@ -1,6 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router";
-import Service from "../Services/Service/Service";
+import ServicePage from "./ServicePage/ServicePage";
 import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../../variant";
 
@@ -19,7 +19,7 @@ const ServicesPage = () => {
         >
           <motion.h2
             variants={textVariant(0.2)}
-            className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4"
           >
             What services do we offer
           </motion.h2>
@@ -34,7 +34,7 @@ const ServicesPage = () => {
         </motion.div>
         <div className="space-y-24">
           {allServicesData.map((service) => (
-            <Service key={service.id} service={service}></Service>
+            <ServicePage key={service.id} service={service}></ServicePage>
           ))}
         </div>
       </div>

@@ -18,7 +18,7 @@ const Services = ({ servicesPromise }) => {
         >
           <motion.h2
             variants={textVariant(0.2)}
-            className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4"
           >
             What services do we offer
           </motion.h2>
@@ -31,7 +31,7 @@ const Services = ({ servicesPromise }) => {
             lifecycle, from ideation to deployment.
           </motion.p>
         </motion.div>
-        <div className="space-y-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <Service key={service.id} service={service}></Service>
           ))}

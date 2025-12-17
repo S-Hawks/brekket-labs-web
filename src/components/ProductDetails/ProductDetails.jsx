@@ -26,11 +26,11 @@ const ProductDetails = () => {
             className="mb-10"
           >
             <Link
-              to="/"
+              to="/products"
               className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors text-sm font-medium"
             >
               <FaArrowLeft />
-              <span>Back to Home</span>
+              <span>Back</span>
             </Link>
           </motion.div>
           <div className="flex flex-col lg:flex-row items-center gap-14">

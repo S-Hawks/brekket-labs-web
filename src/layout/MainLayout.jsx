@@ -4,6 +4,7 @@ import Services from "../components/Services/Services";
 import Contact from "../components/Contact/Contact";
 import WhyBrekket from "../components/WhyBrekket/WhyBrekket";
 import Reviews from "../components/Reviews/Reviews";
+import LogoLoop from "../components/LogoLoop/LogoLoop";
 
 const servicesPromise = fetch("/Services.json").then((res) => res.json());
 const featuresPromise = fetch("/Features.json").then((res) => res.json());
@@ -18,7 +19,8 @@ const MainLayout = () => {
       <Services servicesPromise={servicesPromise}></Services>
       <WhyBrekket featuresPromise={featuresPromise}></WhyBrekket>
       <Reviews reviewsPromise={reviewsPromise}></Reviews>
-      <Contact></Contact>
+      <LogoLoop></LogoLoop>
+      {/* <Contact></Contact> */}
     </div>
   );
 };

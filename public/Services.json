@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "UI/UX Design",
+    "icon": "HiOutlinePaintBrush",
     "image": "https://i.ibb.co.com/rGbcmgFz/ui-ux-design.png",
     "shortDescription": "Logo Design, Website design, Wireframes, Mock ups - we do all with precision.",
     "details": "We design seamless digital experiences. From brand identity and user interface to responsive web and app layouts, our design process focuses on clarity, usability, and aesthetics. Every pixel we place serves a purpose.",
@@ -17,6 +18,7 @@
   {
     "id": 2,
     "title": "Web Application Development",
+    "icon": "HiOutlineGlobeAlt",
     "image": "https://i.ibb.co.com/pBLkH0sR/Web-Application-Development.png",
     "shortDescription": "Build powerful, scalable web applications tailored to your business needs.",
     "details": "Our development team builds scalable, secure, and high-performing web applications. Whether it's a landing page, enterprise system, or SaaS platform, we use the latest technologies to deliver robust and maintainable codebases.",
@@ -39,6 +41,7 @@
   {
     "id": 3,
     "title": "Mobile Application Development",
+    "icon": "HiOutlineDevicePhoneMobile",
     "image": "https://i.ibb.co.com/FQHqWjp/Mobile-Application-Development.png",
     "shortDescription": "Native and cross-platform mobile apps that deliver exceptional user experiences.",
     "details": "We create high-quality mobile applications for iOS and Android. From concept to deployment, our team ensures your app is fast, secure, and user-friendly with modern technologies and best practices.",
@@ -54,6 +57,7 @@
   {
     "id": 4,
     "title": "Custom Software Development",
+    "icon": "HiOutlineCog6Tooth",
     "image": "https://i.ibb.co.com/B5xh2qPR/Custom-Software.png",
     "shortDescription": "Tailored software solutions designed specifically for your unique business requirements.",
     "details": "We develop custom software that perfectly aligns with your business processes. From CRM systems to inventory management, we build solutions that streamline operations and boost productivity.",
@@ -76,6 +80,7 @@
   {
     "id": 5,
     "title": "DevOps Services",
+    "icon": "HiOutlineServerStack",
     "image": "https://i.ibb.co.com/ZRr3f6Gq/Dev-Ops-Services.png",
     "shortDescription": "Streamline your development pipeline with modern DevOps practices and automation.",
     "details": "We implement DevOps practices to accelerate your software delivery. From CI/CD pipelines to infrastructure automation, we help teams deploy faster, more reliably, and with greater confidence.",
@@ -98,6 +103,7 @@
   {
     "id": 6,
     "title": "Software Testing",
+    "icon": "HiOutlineShieldCheck",
     "image": "https://i.ibb.co.com/21BJqFjH/Software-testing.png",
     "shortDescription": "Comprehensive testing services to ensure your software is bug-free and performs flawlessly.",
     "details": "Our QA experts conduct thorough testing to identify issues before they reach production. We use manual and automated testing strategies to ensure your software meets the highest quality standards.",
@@ -120,6 +126,7 @@
   {
     "id": 7,
     "title": "Cloud Consultancy",
+    "icon": "HiOutlineCloud",
     "image": "https://i.ibb.co.com/twpg4Qn6/Cloud-Consultancy.png",
     "shortDescription": "Expert guidance to optimize your cloud infrastructure and reduce costs.",
     "details": "We help businesses leverage cloud computing for better scalability, security, and cost-efficiency. Our consultants design cloud strategies that align with your goals and maximize ROI.",
@@ -142,6 +149,7 @@
   {
     "id": 8,
     "title": "Dedicated Development Team",
+    "icon": "HiOutlineUserGroup",
     "image": "https://i.ibb.co.com/twzs0TqJ/Dedicated-Development-team.png",
     "shortDescription": "Extend your team with skilled developers dedicated to your project's success.",
     "details": "Get a team of experienced developers working exclusively on your project. We provide flexible engagement models and ensure seamless collaboration with your in-house team.",
@@ -157,6 +165,7 @@
   {
     "id": 9,
     "title": "Digital Marketing",
+    "icon": "HiOutlineMegaphone",
     "image": "https://i.ibb.co.com/HDPcJw2S/Digital-marketing.png",
     "shortDescription": "This is overused term in the industry today. But don't worry we know what we are doing.",
     "details": "Our marketing experts help your brand connect with the right audience. We manage social media, ad campaigns, and content strategies that generate measurable results.",
@@ -170,3 +179,4 @@
     "technologies": ["Meta Ads", "Google Ads", "Mailchimp", "HubSpot", "Canva"]
   }
 ]
+

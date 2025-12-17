@@ -20,11 +20,14 @@ import { MdOutlineContactMail, MdContactMail } from "react-icons/md";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => setIsOpen(false);
+
   const list = (
     <>
       <li>
         <NavLink
           to="/"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }
@@ -44,6 +47,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/services"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }
@@ -63,6 +67,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/products"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }
@@ -82,6 +87,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/blog"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }
@@ -101,6 +107,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/about"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }
@@ -120,6 +127,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/contact"
+          onClick={closeMenu}
           className={({ isActive }) =>
             isActive ? "text-blue-600 font-semibold" : "hover:text-blue-500"
           }

@@ -1,70 +1,57 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  staggerContainer,
-  textVariant,
-  fadeIn,
-  scaleIn,
-} from "../../../variant";
+import { textVariant } from "../../../variant";
 import { Link } from "react-router";
+import * as HiIcons from "react-icons/hi2";
 
 const Service = ({ service }) => {
+  const IconComponent = HiIcons[service.icon];
   return (
-    <div className="mb-16">
-      <div
-        className={`flex flex-col ${
-          service.id % 2 === 0 ? "lg:flex-row-reverse" : "lg:flex-row"
-        } items-center gap-8 lg:gap-12`}
+    <motion.div
+      variants={textVariant(0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.2 }}
+      className="group"
+    >
+      <Link
+        to={`/service-details/${service.id}`}
+        className="block h-full bg-gray-50 border border-gray-200 rounded-2xl p-6 hover:bg-cyan-900 hover:border-cyan-900 transition-all hover:scale-105 duration-300 hover:shadow-xl hover:shadow-cyan-900/35"
       >
-        {/* Image Section */}
-        <div className="w-full lg:w-1/2 flex justify-center">
-          <div className="relative group">
-            <img
-              src={service.image}
-              alt={service.title}
-              className="w-full max-w-md rounded-2xl shadow-xl transform transition-transform duration-300 hover:scale-105"
-            />
-          </div>
+        {/* Icon */}
+        <div className="w-12 h-12 rounded-xl bg-gray-900 flex items-center justify-center mb-5 transition-all duration-300">
+          <IconComponent className="w-6 h-6 text-[#66d8fe] group-hover:text-[#66d8fe] transition-colors duration-300" />
         </div>
-        {/* Text Section */}
-        <motion.div
-          variants={staggerContainer(0.15, 0.1)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.3 }}
-          className="w-full lg:w-1/2 space-y-6"
-        >
-          <div>
-            <motion.h3
-              variants={textVariant(0.2)}
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 leading-tight"
-            >
-              {service.title}
-            </motion.h3>
-            <motion.div
-              variants={fadeIn(0.4)}
-              className="w-20 h-1 bg-linear-to-r from-[#66d8fe] to-[#cff3d5] rounded-full mb-6"
-            ></motion.div>
-          </div>
 
-          <motion.p
-            variants={textVariant(0.5)}
-            className="text-gray-700 text-base md:text-lg leading-relaxed"
+        {/* Title */}
+        <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-white transition-colors duration-300">
+          {service.title}
+        </h3>
+
+        {/* Description */}
+        <p className="text-gray-600 text-sm leading-relaxed mb-5 line-clamp-3 group-hover:text-gray-300">
+          {service.shortDescription || service.details}
+        </p>
+
+        {/* Learn More Link */}
+        <span className="inline-flex items-center gap-2 text-cyan-700 text-sm font-medium group-hover:text-[#66d8fe] transition-colors duration-300">
+          Learn More
+          <svg
+            className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
-            {service.details}
-          </motion.p>
-
-          <motion.div variants={scaleIn(0.7)} className="pt-4">
-            <Link
-              to={`/service-details/${service.id}`}
-              className="bg-linear-to-r from-[#66d8fe] to-[#cff3d5] text-gray-900 font-semibold px-8 py-3 rounded-full shadow-lg transition-all duration-300"
-            >
-              Learn More
-            </Link>
-          </motion.div>
-        </motion.div>
-      </div>
-    </div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </span>
+      </Link>
+    </motion.div>
   );
 };
 
